@@ -3,11 +3,11 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      primary: "#22577A",
-      secondary: "#38A3A5",
-      tertiary: "#57CC99",
-      complementary: "#80ED99",
-      white: "#F0F5F9",
+      primary: "#283149",
+      secondary: "#404B69",
+      tertiary: "#F73859",
+      complementary: "#DBEDF3",
+      white: "#FFFFFF",
       gray: "#C9D6DF",
       grayDark: "#52616B",
       black: "#1E2022",
@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['"Montserrat"', "sans-serif"],
-        poppins: ['"Poppins"', "sans-serif"],
+        chakra: ['"Chakra Petch"', "sans-serif"],
       },
     },
   },
