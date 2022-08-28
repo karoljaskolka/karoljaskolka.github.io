@@ -1,5 +1,82 @@
 {
-    "general": {
-        "welcome": "Welcome"
+    "navigation": {
+        "about": "About",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills"
+    },
+    "contact": {
+        "email": {
+            "url": "mailto:jaskolka.karol{'@'}gmail.com",
+            "label": "jaskolka.karol{'@'}gmail.com"
+        },
+        "github": {
+            "url": "https://github.com/KarolJaskolka",
+            "label": "github.com/KarolJaskolka"
+        },
+        "linkedin": {
+            "url": "https://www.linkedin.com/in/karoljaskółka/",
+            "label": "linkedin.com/in/karoljaskółka"
+        }
+    },
+    "about": {
+        "header": "About",
+        "photo": "Photo of myself",
+        "description": "Hi, I am Karol. I've been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology."
+    },
+    "education": {
+        "header": "Education",
+        "msc": {
+            "period": "03.2021 - 07.2022",
+            "university": "Wrocław University of Science and Technology",
+            "faculty": "Faculty of Information and Communcation Technology",
+            "field": "Computer Engineering, MSc",
+            "thesis": "Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"
+        },
+        "bsc": {
+            "period": "10.2017 - 01.2021",
+            "university": "Wrocław University of Science and Technology",
+            "faculty": "Faculty of Electronics",
+            "field": "Computer Science, BSc",
+            "thesis": "Thesis: Web application supporting project management using Angular framework"
+        }
+    },
+    "experience": {
+        "header": "Experience",
+        "linkfactory": {
+            "period": "07.2020 - now",
+            "company": "Linkfactory S/A",
+            "span": "2+ years",
+            "position": "Frontend Developer",
+            "description": "In Linkfactory on daily basis I work as a member of small team of several people. For the first year and half, my main task was about building two web applications using Angular framework and later their maintanance and additional development. Next, I developed an web application in the Vue.js framework. Currently, I am also in contact with an application built with the React.js framework."
+        },
+        "comarch": {
+            "period": "07.2019 - 09.2019",
+            "company": "Comarch S.A.",
+            "span": "3 months",
+            "position": "Programmer Intern",
+            "description": "During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was about embedding it to the Angular web application."
+        }
+    },
+    "skills": {
+        "header": "Skills",
+        "frontend": {
+            "header": "Frontend",
+            "frameworks": "Frameworks",
+            "basics": "Basics",
+            "tools": "Tools"
+        },
+        "other": {
+            "header": "Other",
+            "backend": "Backend",
+            "tools": "Tools",
+            "hobby": "Hobby"
+        },
+        "period": {
+            "years": "{number} years",
+            "year": "{number} year",
+            "months": "{number} months",
+            "month": "{number} month"
+        }
     }
 }

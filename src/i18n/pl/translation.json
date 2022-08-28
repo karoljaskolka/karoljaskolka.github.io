@@ -1,5 +1,82 @@
 {
-    "general": {
-        "welcome": "Witaj"
+    "navigation": {
+        "about": "O mnie",
+        "experience": "Doświadczenie",
+        "education": "Wykształcenie",
+        "skills": "Umiejętności"
+    },
+    "contact": {
+        "email": {
+            "url": "mailto:jaskolka.karol{'@'}gmail.com",
+            "label": "jaskolka.karol{'@'}gmail.com"
+        },
+        "github": {
+            "url": "https://github.com/KarolJaskolka",
+            "label": "github.com/KarolJaskolka"
+        },
+        "linkedin": {
+            "url": "https://www.linkedin.com/in/karoljaskółka/",
+            "label": "linkedin.com/in/karoljaskółka"
+        }
+    },
+    "about": {
+        "header": "O mnie",
+        "photo": "Moje zdjęcie",
+        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera z Informatyki oraz magistra z Informatyki Technicznej na Politechnice Wrocławskiej."
+    },
+    "education": {
+        "header": "Wykształcenie",
+        "msc": {
+            "period": "03.2021 - 07.2022",
+            "university": "Politechnika Wrocławska",
+            "faculty": "Wydział Informatyki i Telekomunikacji",
+            "field": "Informatyka Techniczna, Mgr",
+            "thesis": "Temat pracy: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"
+        },
+        "bsc": {
+            "period": "10.2017 - 01.2021",
+            "university": "Politechnika Wrocławska",
+            "faculty": "Wydział Elektroniki",
+            "field": "Informatyka, Inż.",
+            "thesis": "Temat pracy: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"
+        }
+    },
+    "experience": {
+        "header": "Doświadczenie",
+        "linkfactory": {
+            "period": "07.2020 - obecnie",
+            "company": "Linkfactory S/A",
+            "span": "2+ lata",
+            "position": "Frontend Developer",
+            "description": "W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. W dalszym czasie dodatkowo zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React."
+        },
+        "comarch": {
+            "period": "07.2019 - 09.2019",
+            "company": "Comarch S.A.",
+            "span": "3 mięsiące",
+            "position": "Stażysta programista",
+            "description": "W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, frameworka Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było osadzenie jej w aplikacji napisanej we frameworku Angular."
+        }
+    },
+    "skills": {
+        "header": "Umiejętności",
+        "frontend": {
+            "header": "Frontend",
+            "frameworks": "Frameworki",
+            "basics": "Podstawy",
+            "tools": "Narzędzia"
+        },
+        "other": {
+            "header": "Pozostałe",
+            "backend": "Backend",
+            "tools": "Narzędzia",
+            "hobby": "Hobby"
+        },
+        "period": {
+            "years": "{number} lata",
+            "year": "{number} lat",
+            "months": "{number} miesięcy",
+            "month": "{number} miesiąc"
+        }
     }
 }
