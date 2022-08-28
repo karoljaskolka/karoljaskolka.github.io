@@ -1,7 +1,7 @@
-import { ContactDto } from "./contact";
-import { LinkDto } from "./link";
+import type { ContactDto } from "./contact";
+import type { LinkDto } from "./link";
 import { Locale } from "./locale";
-import { PeriodDto } from "./period";
-import { SkillDto, SkillArticleDto } from "./skill";
+import type { PeriodDto } from "./period";
+import type { SkillDto, SkillArticleDto } from "./skill";
 
 export { ContactDto, LinkDto, Locale, PeriodDto, SkillDto, SkillArticleDto };
