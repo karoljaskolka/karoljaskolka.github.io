@@ -1,6 +1,7 @@
 <template>
   <Header />
   <main>
+    <Hero />
     <About />
     <Experience />
     <Education />
@@ -13,7 +14,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { Skills, Education, Experience, About } from "@/views";
+import { Skills, Education, Experience, About, Hero } from "@/views";
 import { Footer, Header, MobileNav, ScrollTop } from "@/components/general";
 
 export default defineComponent({
@@ -27,6 +28,7 @@ export default defineComponent({
     About,
     MobileNav,
     ScrollTop,
+    Hero,
   },
 });
 </script>

@@ -19,10 +19,16 @@
             "label": "linkedin.com/in/karoljaskółka"
         }
     },
+    "hero": {
+        "greetings": "Cześć, jestem",
+        "fullName": "Karol Jaskółka",
+        "description": "Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budowaniem stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.",
+        "button": "Zobacz więcej"
+    },
     "about": {
         "header": "O mnie",
         "photo": "Moje zdjęcie",
-        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera z Informatyki oraz magistra z Informatyki Technicznej na Politechnice Wrocławskiej."
+        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."
     },
     "education": {
         "header": "Wykształcenie",
@@ -31,14 +37,14 @@
             "university": "Politechnika Wrocławska",
             "faculty": "Wydział Informatyki i Telekomunikacji",
             "field": "Informatyka Techniczna, Mgr",
-            "thesis": "Temat pracy: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"
+            "thesis": "Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"
         },
         "bsc": {
             "period": "10.2017 - 01.2021",
             "university": "Politechnika Wrocławska",
             "faculty": "Wydział Elektroniki",
             "field": "Informatyka, Inż.",
-            "thesis": "Temat pracy: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"
+            "thesis": "Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"
         }
     },
     "experience": {
@@ -48,14 +54,14 @@
             "company": "Linkfactory S/A",
             "span": "2+ lata",
             "position": "Frontend Developer",
-            "description": "W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. W dalszym czasie dodatkowo zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React."
+            "description": "W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend'owych framework'ów."
         },
         "comarch": {
             "period": "07.2019 - 09.2019",
             "company": "Comarch S.A.",
             "span": "3 mięsiące",
             "position": "Stażysta programista",
-            "description": "W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, frameworka Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było osadzenie jej w aplikacji napisanej we frameworku Angular."
+            "description": "W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."
         }
     },
     "skills": {

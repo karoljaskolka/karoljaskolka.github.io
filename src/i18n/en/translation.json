@@ -19,10 +19,16 @@
             "label": "linkedin.com/in/karoljaskółka"
         }
     },
+    "hero": {
+        "greetings": "Hi, I am",
+        "fullName": "Karol Jaskółka",
+        "description": "Software engineer based in Wrocław, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.",
+        "button": "See more"
+    },
     "about": {
         "header": "About",
         "photo": "Photo of myself",
-        "description": "Hi, I am Karol. I've been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology."
+        "description": "Hi, I am Karol. I have been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 7 years ago at High School."
     },
     "education": {
         "header": "Education",
@@ -48,14 +54,14 @@
             "company": "Linkfactory S/A",
             "span": "2+ years",
             "position": "Frontend Developer",
-            "description": "In Linkfactory on daily basis I work as a member of small team of several people. For the first year and half, my main task was about building two web applications using Angular framework and later their maintanance and additional development. Next, I developed an web application in the Vue.js framework. Currently, I am also in contact with an application built with the React.js framework."
+            "description": "In Linkfactory on daily basis I work as a member of small team. Every day I gain new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed an web application in the Vue.js framework. Currently, I have contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."
         },
         "comarch": {
             "period": "07.2019 - 09.2019",
             "company": "Comarch S.A.",
             "span": "3 months",
             "position": "Programmer Intern",
-            "description": "During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was about embedding it to the Angular web application."
+            "description": "During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master's studies."
         }
     },
     "skills": {
