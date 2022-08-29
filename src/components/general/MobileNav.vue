@@ -1,7 +1,7 @@
 <template>
   <div
-    v-if="links.length"
-    class="lg:hidden fixed -bottom-1 right-0 left-0 z-30"
+    v-if="links.length && !hidden"
+    class="lg:hidden fixed -bottom-1 right-0 left-0 z-30 animate-fade"
   >
     <nav class="mobile-nav bg-white flex text-secondary rounded-t-md">
       <a
@@ -18,15 +18,18 @@
 </template>
 
 <script lang="ts">
-import { useContent } from "@/hooks";
-import { defineComponent } from "vue";
+import { useContent, useOnScrollHidden } from "@/hooks";
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "MobileNav",
   setup() {
+    const hidden = ref(true);
     const { links } = useContent();
 
-    return { links };
+    useOnScrollHidden(hidden, 120);
+
+    return { links, hidden };
   },
 });
 </script>

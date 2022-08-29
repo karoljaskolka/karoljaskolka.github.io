@@ -1,0 +1,60 @@
+.animate-fade {
+    animation: fade 0.75s ease-in-out forwards;
+}
+
+.animate-scroll-fade {
+    visibility: visible;
+    animation: fade 1s ease-in-out forwards;
+}
+.animate-scroll-left {
+    visibility: visible;
+    animation: translate-left 1s ease-in-out forwards;
+}
+
+.animate-scroll-right {
+    visibility: visible;
+    animation: translate-right 1s ease-in-out forwards;
+}
+
+.animate-scroll-top {
+    visibility: visible;
+    animation: translate-top 1s ease-in-out forwards;
+}
+
+@keyframes fade {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes translate-left {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes translate-right {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes translate-top {
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

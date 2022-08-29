@@ -1,7 +1,7 @@
 <template>
   <article class="mb-10 mt-4 flex" v-for="entity in entities" :key="entity.id">
     <AsideLine class="mr-6" />
-    <div>
+    <div ref="periods" class="invisible">
       <span v-if="entity.period" class="block mb-2">
         {{ entity.period }}
       </span>
@@ -23,10 +23,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType, ref } from "vue";
 import { Heading3, Heading4, Paragraph, Note } from "@/components/layout";
 import { AsideLine, BlockList } from "@/components/common";
 import { PeriodDto } from "@/types";
+import { useOnScrollTransition } from "@/hooks";
 
 export default defineComponent({
   name: "Timeline",
@@ -35,6 +36,13 @@ export default defineComponent({
     entities: {
       type: Array as PropType<PeriodDto[]>,
     },
+  },
+  setup() {
+    const periods = ref([]);
+
+    useOnScrollTransition(periods, "animate-scroll-top");
+
+    return { periods };
   },
 });
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="invisible" ref="list">
     <ContactItem
       v-for="entity in entities"
       :key="entity.id"
@@ -10,8 +10,9 @@
 </template>
 
 <script lang="ts">
+import { useOnScrollTransition } from "@/hooks";
 import { ContactDto } from "@/types";
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType, ref } from "vue";
 import ContactItem from "./ContactItem.vue";
 
 export default defineComponent({
@@ -21,6 +22,13 @@ export default defineComponent({
     entities: {
       type: Array as PropType<ContactDto[]>,
     },
+  },
+  setup() {
+    const list = ref([]);
+
+    useOnScrollTransition(list, "animate-scroll-left");
+
+    return { list };
   },
 });
 </script>

@@ -10,7 +10,9 @@
       </NarrowContainer>
       <NarrowContainer>
         <Paragraph>
-          {{ $t("about.description") }}
+          <span class="block invisible" ref="description">
+            {{ $t("about.description") }}
+          </span>
         </Paragraph>
       </NarrowContainer>
     </Container>
@@ -18,7 +20,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 import {
   Container,
   Section,
@@ -27,7 +29,7 @@ import {
   NarrowContainer,
 } from "@/components/layout";
 import { Photo, ContactList } from "./components";
-import { useContent } from "@/hooks";
+import { useContent, useOnScrollTransition } from "@/hooks";
 
 export default defineComponent({
   name: "About",
@@ -42,8 +44,11 @@ export default defineComponent({
   },
   setup() {
     const { contacts } = useContent();
+    const description = ref([]);
 
-    return { entities: contacts };
+    useOnScrollTransition(description, "animate-scroll-top");
+
+    return { entities: contacts, description };
   },
 });
 </script>
