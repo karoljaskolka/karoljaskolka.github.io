@@ -8,13 +8,13 @@ const LOCALES: string[] = Object.values(Locale);
 
 const getLocale = () => {
   const locale = window.localStorage.getItem("locale") || "";
-  return LOCALES.includes(locale) ? locale : Locale.EN;
+  return LOCALES.includes(locale) ? locale : Locale.PL;
 };
 
 const i18n = createI18n({
   legacy: false,
   locale: getLocale(),
-  fallbackLocale: Locale.EN,
+  fallbackLocale: Locale.PL,
   globalInjection: true,
   messages: {
     en,

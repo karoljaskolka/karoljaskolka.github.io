@@ -4,7 +4,7 @@
       <Heading2 icon="fa-solid fa-briefcase" class="pb-12">
         {{ $t("experience.header") }}
       </Heading2>
-      <Timeline class="mb-10 mt-4" :entities="entities" />
+      <Timeline :entities="entities" />
     </Container>
   </Section>
 </template>

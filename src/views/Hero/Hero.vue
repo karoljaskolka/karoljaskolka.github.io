@@ -1,24 +1,38 @@
 <template>
-  <Section id="hero" class="bg-primary text-white flex">
+  <Section id="hero" class="bg-primary text-complementary flex">
     <Container
       class="flex-1 flex flex-col items-center justify-between mt-4 mb-10 md:my-12 lg:my-16"
     >
       <Heading1 class="flex flex-col">
-        <span class="text-tertiary mb-4 text-2xl font-semibold font-chakra">{{
-          greetingsDest
-        }}</span>
-        <span class="font-chakra">{{ fullNameDest }}</span>
+        <p class="flex justify-center items-center mb-4">
+          <span class="text-tertiary text-2xl font-semibold font-chakra mr-2">
+            {{ greetingsDest }}
+          </span>
+          <span
+            v-if="loadingGreetings"
+            class="block w-2 h-6 animate-caret-tertiary"
+          ></span>
+        </p>
+        <p class="flex items-center">
+          <span class="font-chakra mr-2">
+            {{ fullNameDest }}
+          </span>
+          <span
+            v-if="loadingFullName"
+            class="block w-2 h-10 animate-caret"
+          ></span>
+        </p>
       </Heading1>
       <NarrowContainer class="my-8 md:my-12">
         <p
-          v-if="!loading"
-          class="text-complementary text-lg font-medium text-center animate-fade"
+          v-if="!loadingFullName && !loadingGreetings"
+          class="text-lg font-medium text-center animate-fade"
         >
           {{ $t("hero.description") }}
         </p>
       </NarrowContainer>
       <a
-        v-if="!loading"
+        v-if="!loadingFullName && !loadingGreetings"
         class="block bg-tertiary hover:bg-opacity-80 duration-500 text-white font-semibold px-8 py-4 rounded-md max-w-xs animate-fade"
         href="#about"
       >
@@ -52,16 +66,21 @@ export default defineComponent({
     const fullNameSrc = ref(t("hero.fullName"));
     const greetingsDest = ref("");
     const fullNameDest = ref("");
-    const loading = ref(true);
+    const loadingGreetings = ref(true);
+    const loadingFullName = ref(false);
 
     const greetingsTyping = () => {
       if (greetingsDest.value.length < greetingsSrc.value.length) {
         greetingsDest.value += greetingsSrc.value.charAt(
           greetingsDest.value.length
         );
-        setTimeout(greetingsTyping, 75);
+        setTimeout(greetingsTyping, 100);
       } else {
-        setTimeout(fullNameTyping, 200);
+        setTimeout(() => {
+          loadingGreetings.value = false;
+          loadingFullName.value = true;
+          fullNameTyping();
+        }, 250);
       }
     };
 
@@ -70,9 +89,11 @@ export default defineComponent({
         fullNameDest.value += fullNameSrc.value.charAt(
           fullNameDest.value.length
         );
-        setTimeout(fullNameTyping, 75);
+        setTimeout(fullNameTyping, 100);
       } else {
-        loading.value = false;
+        setTimeout(() => {
+          loadingFullName.value = false;
+        }, 250);
       }
     };
 
@@ -85,13 +106,14 @@ export default defineComponent({
         fullNameSrc.value = t("hero.fullName");
         greetingsDest.value = "";
         fullNameDest.value = "";
-        loading.value = true;
+        loadingGreetings.value = true;
+        loadingFullName.value = false;
         greetingsTyping();
       },
       { deep: true }
     );
 
-    return { greetingsDest, fullNameDest, loading };
+    return { greetingsDest, fullNameDest, loadingGreetings, loadingFullName };
   },
 });
 </script>

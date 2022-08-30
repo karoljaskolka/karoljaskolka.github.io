@@ -23,7 +23,7 @@ export default defineComponent({
   setup(props) {
     const heading = ref([]);
 
-    if (props.animation) useOnScrollTransition(heading, "animate-scroll-right");
+    if (props.animation) useOnScrollTransition(heading, "animate-scroll-fade");
 
     return { heading };
   },
