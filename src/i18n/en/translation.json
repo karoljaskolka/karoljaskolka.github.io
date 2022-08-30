@@ -1,22 +1,37 @@
 {
     "navigation": {
-        "about": "About",
-        "experience": "Experience",
-        "education": "Education",
-        "skills": "Skills"
+        "about": {
+            "label": "About",
+            "aria": "Show section about me"
+        },
+        "experience": {
+            "label": "Experience",
+            "aria": "Show section about experience"
+        },
+        "education": {
+            "label": "Education",
+            "aria": "Show section about education"
+        },
+        "skills": {
+            "label": "Skills",
+            "aria": "Show section about skills"
+        }
     },
     "contact": {
         "email": {
             "url": "mailto:jaskolka.karol{'@'}gmail.com",
-            "label": "jaskolka.karol{'@'}gmail.com"
+            "label": "jaskolka.karol{'@'}gmail.com",
+            "aria": "Mail to jaskolka.karol{'@'}gmail.com"
         },
         "github": {
-            "url": "https://github.com/KarolJaskolka",
-            "label": "github.com/KarolJaskolka"
+            "url": "https://github.com/karoljaskolka",
+            "label": "github.com/karoljaskolka",
+            "aria": "Go to Github account"
         },
         "linkedin": {
             "url": "https://www.linkedin.com/in/karoljaskółka/",
-            "label": "linkedin.com/in/karoljaskółka"
+            "label": "linkedin.com/in/karoljaskółka",
+            "aria": "Go to Linkedin account"
         }
     },
     "hero": {
@@ -84,5 +99,10 @@
             "months": "{number} months",
             "month": "{number} month"
         }
+    },
+    "aria": {
+        "scroll-top": "Scroll to the top",
+        "en": "Switch language to english",
+        "pl": "Switch language to polish"
     }
 }

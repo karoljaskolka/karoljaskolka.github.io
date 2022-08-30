@@ -4,6 +4,7 @@
     target="_blank"
     rel="noopener noreferrer"
     class="contact-item relative flex items-center w-fit md:flex-row-reverse md:ml-auto"
+    :aria-label="contact.aria"
   >
     <FontAwesomeIcon
       :icon="contact.icon"

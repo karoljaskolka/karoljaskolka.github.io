@@ -4,8 +4,9 @@
       v-for="locale in locales"
       :key="locale"
       @click="changeLocale(locale)"
-      class="ml-4 first:ml-0 uppercase"
+      class="ml-6 first:ml-0 uppercase font-medium"
       :class="{ 'text-tertiary': currentLocale === locale }"
+      :aria-label="$t(`aria.${locale}`)"
     >
       {{ locale }}
     </button>

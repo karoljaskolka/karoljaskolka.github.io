@@ -8,6 +8,7 @@
             :key="link.label"
             :href="link.href"
             class="mb-4 last:mb-0 hover:text-gray w-fit"
+            :aria-label="link.aria"
           >
             {{ link.label }}
           </a>
@@ -19,6 +20,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="flex md:flex-row-reverse items-center w-fit hover:text-gray"
+              :aria-label="$t('contact.email.aria')"
             >
               <FontAwesomeIcon
                 icon="fa-solid fa-envelope"
@@ -35,6 +37,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="hover:text-gray mr-4"
+              :aria-label="$t('contact.linkedin.aria')"
             >
               <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" />
               <span class="hidden">
@@ -46,7 +49,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="hover:text-gray"
-              aria-label="Github link"
+              :aria-label="$t('contact.github.aria')"
             >
               <FontAwesomeIcon icon="fa-brands fa-github" size="2x" />
               <span class="hidden">

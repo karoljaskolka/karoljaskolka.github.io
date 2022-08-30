@@ -9,6 +9,7 @@
         :key="link.label"
         :href="link.href"
         class="flex-1 p-5 hover:text-secondary border-complementary flex justify-center"
+        :aria-label="link.aria"
       >
         <FontAwesomeIcon class="w-5 h-5" :icon="link.icon" />
         <span class="hidden">{{ link.label }}</span>

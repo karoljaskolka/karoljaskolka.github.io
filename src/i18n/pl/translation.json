@@ -1,28 +1,43 @@
 {
     "navigation": {
-        "about": "O mnie",
-        "experience": "Doświadczenie",
-        "education": "Wykształcenie",
-        "skills": "Umiejętności"
+        "about": {
+            "label": "O mnie",
+            "aria": "Pokaż sekcję o mnie"
+        },
+        "experience": {
+            "label": "Doświadczenie",
+            "aria": "Pokaż sekcję o doświadczeniu"
+        },
+        "education": {
+            "label": "Wykształcenie",
+            "aria": "Pokaż sekcję o doświadczeniu"
+        },
+        "skills": {
+            "label": "Umiejętności",
+            "aria": "Pokaż sekcję o umiejętnościach"
+        }
     },
     "contact": {
         "email": {
             "url": "mailto:jaskolka.karol{'@'}gmail.com",
-            "label": "jaskolka.karol{'@'}gmail.com"
+            "label": "jaskolka.karol{'@'}gmail.com",
+            "aria": "Napisz e-mail do jaskolka.karol{'@'}gmail.com"
         },
         "github": {
-            "url": "https://github.com/KarolJaskolka",
-            "label": "github.com/KarolJaskolka"
+            "url": "https://github.com/karoljaskolka",
+            "label": "github.com/karoljaskolka",
+            "aria": "Przejdź do konta Github"
         },
         "linkedin": {
             "url": "https://www.linkedin.com/in/karoljaskółka/",
-            "label": "linkedin.com/in/karoljaskółka"
+            "label": "linkedin.com/in/karoljaskółka",
+            "aria": "Przejdź do konta Linkedin"
         }
     },
     "hero": {
         "greetings": "Cześć, jestem",
         "fullName": "Karol Jaskółka",
-        "description": "Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budowaniem stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.",
+        "description": "Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budową stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.",
         "button": "Zobacz więcej"
     },
     "about": {
@@ -84,5 +99,10 @@
             "months": "{number} miesięcy",
             "month": "{number} miesiąc"
         }
+    },
+    "aria": {
+        "scroll-top": "Przewiń do góry",
+        "en": "Zmień język na angielski",
+        "pl": "Zmień język na polski"
     }
 }

@@ -11,23 +11,27 @@ export const useContent = () => {
     return [
       {
         href: "#about",
-        label: t("navigation.about"),
+        label: t("navigation.about.label"),
         icon: "fa-solid fa-user",
+        aria: t("navigation.about.aria"),
       },
       {
         href: "#experience",
-        label: t("navigation.experience"),
+        label: t("navigation.experience.label"),
         icon: "fa-solid fa-briefcase",
+        aria: t("navigation.experience.aria"),
       },
       {
         href: "#education",
-        label: t("navigation.education"),
+        label: t("navigation.education.label"),
         icon: "fa-solid fa-graduation-cap",
+        aria: t("navigation.education.aria"),
       },
       {
         href: "#skills",
-        label: t("navigation.skills"),
+        label: t("navigation.skills.label"),
         icon: "fa-solid fa-code",
+        aria: t("navigation.skills.aria"),
       },
     ];
   });
@@ -114,18 +118,21 @@ export const useContent = () => {
         icon: "fa-solid fa-envelope",
         url: t("contact.email.url"),
         label: t("contact.email.label"),
+        aria: t("contact.email.aria"),
       },
       {
         id: "linkedin",
         icon: "fa-brands fa-linkedin",
         url: t("contact.linkedin.url"),
         label: t("contact.linkedin.label"),
+        aria: t("contact.linkedin.aria"),
       },
       {
         id: "github",
         icon: "fa-brands fa-github",
         url: t("contact.github.url"),
         label: t("contact.github.label"),
+        aria: t("contact.github.aria"),
       },
     ];
   });

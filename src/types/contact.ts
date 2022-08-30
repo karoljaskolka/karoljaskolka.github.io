@@ -3,4 +3,5 @@ export interface ContactDto {
   icon: string;
   url: string;
   label: string;
+  aria: string;
 }
