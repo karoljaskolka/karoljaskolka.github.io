@@ -1,24 +1,10 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+Repository of my personal website - [https://karoljaskolka.github.io/](https://karoljaskolka.github.io/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Technology stack
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js v3.2
+- Vue i18n
+- Tailwind CSS
+- Font Awesome free icons
