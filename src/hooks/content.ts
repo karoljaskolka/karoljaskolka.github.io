@@ -161,7 +161,7 @@ export const useContent = () => {
                 name: "React",
                 icon: "fa-brands fa-react",
                 progress: 12.5,
-                experience: t("skills.period.months", { number: "3" }),
+                experience: t("skills.period.months-alt", { number: "3" }),
               },
             ],
           },

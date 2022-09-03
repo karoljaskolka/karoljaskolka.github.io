@@ -97,7 +97,8 @@
             "years": "{number} years",
             "year": "{number} year",
             "months": "{number} months",
-            "month": "{number} month"
+            "month": "{number} month",
+            "months-alt": "{number} months"
         }
     },
     "aria": {

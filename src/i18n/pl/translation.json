@@ -95,9 +95,10 @@
         },
         "period": {
             "years": "{number} lata",
-            "year": "{number} lat",
+            "year": "{number} rok",
             "months": "{number} miesięcy",
-            "month": "{number} miesiąc"
+            "month": "{number} miesiąc",
+            "months-alt": "{number} miesiące"
         }
     },
     "aria": {
