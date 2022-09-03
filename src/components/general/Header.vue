@@ -11,7 +11,7 @@
             :key="link.label"
             :href="link.href"
             :aria-label="link.aria"
-            class="ml-8 first:ml-0 hover:text-gray"
+            class="ml-8 first:ml-0 hover:text-gray flex animate-underline-tertiary"
           >
             {{ link.label }}
           </a>

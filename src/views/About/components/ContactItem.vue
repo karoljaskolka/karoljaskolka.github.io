@@ -3,7 +3,7 @@
     :href="contact.url"
     target="_blank"
     rel="noopener noreferrer"
-    class="contact-item relative flex items-center w-fit md:flex-row-reverse md:ml-auto"
+    class="relative flex items-center w-fit md:flex-row-reverse md:ml-auto animate-underline"
     :aria-label="contact.aria"
   >
     <FontAwesomeIcon
@@ -29,27 +29,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style lang="scss" scoped>
-.contact-item {
-  &:hover {
-    &:after {
-      content: "";
-      position: absolute;
-      height: 2px;
-      background-color: #dbedf3;
-      bottom: -0.25rem;
-      animation: underline 0.5s forwards;
-    }
-  }
-}
-
-@keyframes underline {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-</style>

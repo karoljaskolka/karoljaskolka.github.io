@@ -7,7 +7,7 @@
             v-for="link in links"
             :key="link.label"
             :href="link.href"
-            class="mb-4 last:mb-0 hover:text-gray w-fit"
+            class="mb-4 last:mb-0 hover:text-gray w-fit flex animate-underline-thin-tertiary"
             :aria-label="link.aria"
           >
             {{ link.label }}
@@ -19,7 +19,7 @@
               :href="$t('contact.email.url')"
               target="_blank"
               rel="noopener noreferrer"
-              class="flex md:flex-row-reverse items-center w-fit hover:text-gray"
+              class="flex md:flex-row-reverse items-center w-fit hover:text-gray animate-underline-thin-tertiary"
               :aria-label="$t('contact.email.aria')"
             >
               <FontAwesomeIcon

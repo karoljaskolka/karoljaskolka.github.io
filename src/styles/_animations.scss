@@ -29,6 +29,37 @@
     animation: translate-top 1s ease-in-out forwards;
 }
 
+@mixin underline($color, $height) {
+    position: relative;
+    transition: 0.5s;
+    &:hover {
+        &:after {
+          content: "";
+          position: absolute;
+          height: $height;
+          background-color: $color;
+          bottom: -0.25rem;
+          animation: underline 0.5s forwards;
+        }
+    }
+}
+
+.animate-underline {
+    @include underline(#dbedf3, 2px);
+}
+
+.animate-underline-thin {
+    @include underline(#dbedf3, 1px);
+}
+
+.animate-underline-tertiary {
+    @include underline(#F73859, 2px);
+}
+
+.animate-underline-thin-tertiary {
+    @include underline(#F73859, 1px);
+}
+
 @keyframes fade {
     from { opacity: 0 }
     to { opacity: 1 }
@@ -74,5 +105,14 @@
     to { 
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@keyframes underline {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
     }
 }

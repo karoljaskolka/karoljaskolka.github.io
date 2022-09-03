@@ -4,7 +4,7 @@
       v-for="locale in locales"
       :key="locale"
       @click="changeLocale(locale)"
-      class="ml-6 first:ml-0 uppercase font-medium"
+      class="ml-6 first:ml-0 uppercase font-medium flex animate-underline-tertiary"
       :class="{ 'text-tertiary': currentLocale === locale }"
       :aria-label="$t(`aria.${locale}`)"
     >
