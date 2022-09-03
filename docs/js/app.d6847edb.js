@@ -1,7 +1,7 @@
 (function () {
   "use strict";
   var e = {
-      8290: function (e, a, n) {
+      6605: function (e, a, n) {
         var t = n(9242),
           i = n(7749),
           r = n(3396);
@@ -295,7 +295,7 @@
                 target: "_blank",
                 rel: "noopener noreferrer",
                 class:
-                  "contact-item relative flex items-center w-fit md:flex-row-reverse md:ml-auto",
+                  "relative flex items-center w-fit md:flex-row-reverse md:ml-auto animate-underline",
                 "aria-label": e.contact.aria,
               },
               [
@@ -321,10 +321,7 @@
           name: "ContactItem",
           props: { contact: { type: Object } },
         });
-        const oe = (0, p.Z)(re, [
-          ["render", ie],
-          ["__scopeId", "data-v-11610ade"],
-        ]);
+        const oe = (0, p.Z)(re, [["render", ie]]);
         var se = oe;
         const le = { class: "invisible", ref: "list" };
         function ce(e, a, n, t, i, o) {
@@ -552,7 +549,9 @@
                         name: "React",
                         icon: "fa-brands fa-react",
                         progress: 12.5,
-                        experience: e("skills.period.months", { number: "3" }),
+                        experience: e("skills.period.months-alt", {
+                          number: "3",
+                        }),
                       },
                     ],
                   },
@@ -1514,7 +1513,7 @@
                                         key: e.label,
                                         href: e.href,
                                         class:
-                                          "mb-4 last:mb-0 hover:text-gray w-fit",
+                                          "mb-4 last:mb-0 hover:text-gray w-fit flex animate-underline-thin-tertiary",
                                         "aria-label": e.aria,
                                       },
                                       (0, s.zw)(e.label),
@@ -1535,7 +1534,7 @@
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     class:
-                                      "flex md:flex-row-reverse items-center w-fit hover:text-gray",
+                                      "flex md:flex-row-reverse items-center w-fit hover:text-gray animate-underline-thin-tertiary",
                                     "aria-label": e.$t("contact.email.aria"),
                                   },
                                   [
@@ -1668,7 +1667,8 @@
                                   key: e.label,
                                   href: e.href,
                                   "aria-label": e.aria,
-                                  class: "ml-8 first:ml-0 hover:text-gray",
+                                  class:
+                                    "ml-8 first:ml-0 hover:text-gray flex animate-underline-tertiary",
                                 },
                                 (0, s.zw)(e.label),
                                 9,
@@ -1708,7 +1708,7 @@
                         key: a,
                         onClick: (n) => e.changeLocale(a),
                         class: (0, s.C_)([
-                          "ml-6 first:ml-0 uppercase font-medium",
+                          "ml-6 first:ml-0 uppercase font-medium flex animate-underline-tertiary",
                           { "text-tertiary": e.currentLocale === a },
                         ]),
                         "aria-label": e.$t(`aria.${a}`),
@@ -1839,7 +1839,7 @@
                     a[0] || (a[0] = (...a) => e.scrollTop && e.scrollTop(...a)),
                   type: "button",
                   class:
-                    "fixed bottom-20 lg:bottom-6 right-6 z-40 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-tertiary hover:bg-opacity-80 duration-500 animate-fade",
+                    "fixed bottom-20 lg:bottom-6 right-6 z-40 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-tertiary hover:bg-opacity-80 duration-500 animate-fade shadow-lg",
                   "aria-label": e.$t("aria.scroll-top"),
                 },
                 [
@@ -1882,10 +1882,10 @@
         const An = (0, p.Z)(Ln, [["render", o]]);
         var Fn = An,
           Nn = JSON.parse(
-            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Wrocław, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 7 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","linkfactory":{"period":"07.2020 - now","company":"Linkfactory S/A","span":"2+ years","position":"Frontend Developer","description":"In Linkfactory on daily basis I work as a member of small team. Every day I gain new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed an web application in the Vue.js framework. Currently, I have contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
+            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Wrocław, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 7 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","linkfactory":{"period":"07.2020 - now","company":"Linkfactory S/A","span":"2+ years","position":"Frontend Developer","description":"In Linkfactory on daily basis I work as a member of small team. Every day I gain new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed an web application in the Vue.js framework. Currently, I have contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
           ),
           Pn = JSON.parse(
-            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budową stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","linkfactory":{"period":"07.2020 - obecnie","company":"Linkfactory S/A","span":"2+ lata","position":"Frontend Developer","description":"W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend\'owych framework\'ów."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} lat","months":"{number} miesięcy","month":"{number} miesiąc"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
+            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budową stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","linkfactory":{"period":"07.2020 - obecnie","company":"Linkfactory S/A","span":"2+ lata","position":"Frontend Developer","description":"W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend\'owych framework\'ów."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
           );
         const $n = Object.values(pn),
           En = () => {
@@ -1900,9 +1900,9 @@
             messages: { en: Nn, pl: Pn },
           });
         var On = Bn,
-          Un = n(8125),
-          Kn = n(2234),
-          Mn = n(8321);
+          Un = n(3494),
+          Kn = n(4551),
+          Mn = n(8539);
         Un.vI.add(
           Kn.rdb,
           Mn.HXv,
@@ -2037,8 +2037,8 @@
       t.forEach(a.bind(null, 0)), (t.push = a.bind(null, t.push.bind(t)));
     })();
   var t = n.O(void 0, [998], function () {
-    return n(8290);
+    return n(6605);
   });
   t = n.O(t);
 })();
-//# sourceMappingURL=app.0e8ecba1.js.map
+//# sourceMappingURL=app.d6847edb.js.map
