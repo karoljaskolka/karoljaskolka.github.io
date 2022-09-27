@@ -120,6 +120,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #hero {
-  min-height: calc(100vh - 96px);
+  min-height: calc(100vh - 92px);
 }
 </style>
