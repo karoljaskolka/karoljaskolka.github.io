@@ -37,7 +37,7 @@
     "hero": {
         "greetings": "Cześć, jestem",
         "fullName": "Karol Jaskółka",
-        "description": "Programista z wykształceniem informatycznym z Wrocławia. Zajmuję się budową stron internetowych oraz aplikacji webowych tworzonych z wykorzystaniem najnowszych rozwiązań na rynku.",
+        "description": "Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.",
         "button": "Zobacz więcej"
     },
     "about": {
@@ -69,7 +69,7 @@
             "company": "Linkfactory A/S",
             "span": "2+ lata",
             "position": "Frontend Developer",
-            "description": "W Linkfactory na codzień pracuję jako członek niewielkiego zespołu złożonego z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend'owych framework'ów."
+            "description": "W Linkfactory na codzień pracuję w zespole złożonym z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend'owych framework'ów."
         },
         "comarch": {
             "period": "07.2019 - 09.2019",
