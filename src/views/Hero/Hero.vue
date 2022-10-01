@@ -3,8 +3,8 @@
     <Container
       class="flex-1 flex flex-col items-center justify-between mt-4 mb-10 md:my-12 lg:my-16"
     >
-      <Heading1 class="flex flex-col">
-        <p class="flex justify-center items-center mb-4">
+      <div class="flex flex-col">
+        <div class="flex justify-center items-center mb-4">
           <span class="text-tertiary text-2xl font-semibold font-chakra mr-2">
             {{ greetingsDest }}
           </span>
@@ -12,17 +12,17 @@
             v-if="loadingGreetings"
             class="block w-2 h-6 animate-caret-tertiary"
           ></span>
-        </p>
-        <p class="flex items-center">
-          <span class="font-chakra mr-2">
+        </div>
+        <div class="flex items-center">
+          <Heading1 class="font-chakra mr-2">
             {{ fullNameDest }}
-          </span>
+          </Heading1>
           <span
             v-if="loadingFullName"
             class="block w-2 h-10 animate-caret"
           ></span>
-        </p>
-      </Heading1>
+        </div>
+      </div>
       <NarrowContainer class="my-8 md:my-12">
         <p
           v-if="!loadingFullName && !loadingGreetings"

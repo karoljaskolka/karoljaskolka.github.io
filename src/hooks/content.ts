@@ -154,8 +154,8 @@ export const useContent = () => {
               {
                 name: "Vue",
                 icon: "fa-brands fa-vuejs",
-                progress: 37.5,
-                experience: t("skills.period.months", { number: "9" }),
+                progress: 50,
+                experience: t("skills.period.year", { number: "1+" }),
               },
               {
                 name: "React",
@@ -206,8 +206,8 @@ export const useContent = () => {
               {
                 name: "Yarn",
                 icon: "fa-brands fa-yarn",
-                progress: 37.5,
-                experience: t("skills.period.months", { number: "9" }),
+                progress: 50,
+                experience: t("skills.period.year", { number: "1+" }),
               },
             ],
           },

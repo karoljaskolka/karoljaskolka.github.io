@@ -1,11 +1,11 @@
 (function () {
   "use strict";
   var e = {
-      520: function (e, a, n) {
-        var t = n(9242),
-          i = n(7749),
+      931: function (e, a, n) {
+        var i = n(9242),
+          t = n(7749),
           r = n(3396);
-        function o(e, a, n, t, i, o) {
+        function o(e, a, n, i, t, o) {
           const s = (0, r.up)("Header"),
             l = (0, r.up)("Hero"),
             c = (0, r.up)("About"),
@@ -38,25 +38,26 @@
           );
         }
         var s = n(7139);
-        function l(e, a, n, t, i, o) {
-          const l = (0, r.up)("Heading2"),
-            c = (0, r.up)("Photo"),
-            d = (0, r.up)("ContactList"),
-            u = (0, r.up)("NarrowContainer"),
-            m = (0, r.up)("Paragraph"),
-            p = (0, r.up)("Container"),
-            f = (0, r.up)("Section");
+        const l = { class: "invisible", ref: "description" };
+        function c(e, a, n, i, t, o) {
+          const c = (0, r.up)("Heading2"),
+            d = (0, r.up)("Photo"),
+            u = (0, r.up)("ContactList"),
+            m = (0, r.up)("NarrowContainer"),
+            p = (0, r.up)("Paragraph"),
+            f = (0, r.up)("Container"),
+            g = (0, r.up)("Section");
           return (
             (0, r.wg)(),
             (0, r.j4)(
-              f,
+              g,
               { id: "about", border: !0 },
               {
                 default: (0, r.w5)(() => [
-                  (0, r.Wm)(p, null, {
+                  (0, r.Wm)(f, null, {
                     default: (0, r.w5)(() => [
                       (0, r.Wm)(
-                        l,
+                        c,
                         { class: "mb-12" },
                         {
                           default: (0, r.w5)(() => [
@@ -66,15 +67,15 @@
                         }
                       ),
                       (0, r.Wm)(
-                        u,
+                        m,
                         { class: "md:flex md:items-center mb-12" },
                         {
                           default: (0, r.w5)(() => [
-                            (0, r.Wm)(c, {
+                            (0, r.Wm)(d, {
                               class: "md:w-1/2 md:pr-6 mb-12 md:mb-0",
                             }),
                             (0, r.Wm)(
-                              d,
+                              u,
                               {
                                 class: "md:w-1/2 md:pl-6",
                                 entities: e.entities,
@@ -87,22 +88,24 @@
                           _: 1,
                         }
                       ),
-                      (0, r.Wm)(u, null, {
+                      (0, r.Wm)(m, null, {
                         default: (0, r.w5)(() => [
-                          (0, r.Wm)(m, null, {
-                            default: (0, r.w5)(() => [
-                              (0, r._)(
-                                "span",
-                                {
-                                  class: "block invisible",
-                                  ref: "description",
-                                },
-                                (0, s.zw)(e.$t("about.description")),
-                                513
-                              ),
-                            ]),
-                            _: 1,
-                          }),
+                          (0, r._)(
+                            "div",
+                            l,
+                            [
+                              (0, r.Wm)(p, null, {
+                                default: (0, r.w5)(() => [
+                                  (0, r.Uk)(
+                                    (0, s.zw)(e.$t("about.description")),
+                                    1
+                                  ),
+                                ]),
+                                _: 1,
+                              }),
+                            ],
+                            512
+                          ),
                         ]),
                         _: 1,
                       }),
@@ -115,39 +118,38 @@
             )
           );
         }
-        var c = n(4870);
-        const d = { class: "px-6 max-w-5xl mx-auto" };
-        function u(e, a, n, t, i, o) {
+        var d = n(4870);
+        const u = { class: "px-6 max-w-5xl mx-auto" };
+        function m(e, a, n, i, t, o) {
           return (
-            (0, r.wg)(), (0, r.iD)("div", d, [(0, r.WI)(e.$slots, "default")])
+            (0, r.wg)(), (0, r.iD)("div", u, [(0, r.WI)(e.$slots, "default")])
           );
         }
-        var m = (0, r.aZ)({ name: "Container" }),
-          p = n(89);
-        const f = (0, p.Z)(m, [["render", u]]);
-        var g = f;
-        const b = { class: "text-4xl font-bold text-center font-chakra" };
-        function w(e, a, n, t, i, o) {
+        var p = (0, r.aZ)({ name: "Container" }),
+          f = n(89);
+        const g = (0, f.Z)(p, [["render", m]]);
+        var b = g;
+        const w = { class: "text-4xl font-bold text-center font-chakra" };
+        function k(e, a, n, i, t, o) {
           return (
-            (0, r.wg)(), (0, r.iD)("h1", b, [(0, r.WI)(e.$slots, "default")])
+            (0, r.wg)(), (0, r.iD)("h1", w, [(0, r.WI)(e.$slots, "default")])
           );
         }
-        var k = (0, r.aZ)({ name: "Heading1" });
-        const h = (0, p.Z)(k, [["render", w]]);
-        var y = h;
-        const v = {
-            class:
-              "text-4xl font-bold text-secondary flex flex-col justify-center items-center invisible",
-            ref: "heading",
-          },
-          x = { class: "font-chakra" };
-        function z(e, a, n, t, i, o) {
+        var h = (0, r.aZ)({ name: "Heading1" });
+        const y = (0, f.Z)(h, [["render", k]]);
+        var v = y;
+        const x = {
+          class:
+            "text-4xl font-bold font-chakra text-secondary flex flex-col justify-center items-center invisible",
+          ref: "heading",
+        };
+        function z(e, a, n, i, t, o) {
           const s = (0, r.up)("FontAwesomeIcon");
           return (
             (0, r.wg)(),
             (0, r.iD)(
               "h2",
-              v,
+              x,
               [
                 e.icon
                   ? ((0, r.wg)(),
@@ -159,7 +161,7 @@
                       ["icon"]
                     ))
                   : (0, r.kq)("", !0),
-                (0, r._)("span", x, [(0, r.WI)(e.$slots, "default")]),
+                (0, r.WI)(e.$slots, "default"),
               ],
               512
             )
@@ -168,10 +170,10 @@
         const j = (e, a) => {
           const n = () => {
               if (Array.isArray(e.value))
-                for (let a = 0; a < e.value.length; a++) t(e.value[a]);
-              else t(e.value);
+                for (let a = 0; a < e.value.length; a++) i(e.value[a]);
+              else i(e.value);
             },
-            t = (e) => {
+            i = (e) => {
               e &&
                 !e.classList.contains(a) &&
                 e.getBoundingClientRect().top + 120 < window.innerHeight &&
@@ -188,13 +190,13 @@
           name: "Heading2",
           props: { icon: String },
           setup() {
-            const e = (0, c.iH)([]);
+            const e = (0, d.iH)([]);
             return j(e, "animate-scroll-fade"), { heading: e };
           },
         });
-        const S = (0, p.Z)(_, [["render", z]]);
+        const S = (0, f.Z)(_, [["render", z]]);
         var W = S;
-        function D(e, a, n, t, i, o) {
+        function D(e, a, n, i, t, o) {
           return (
             (0, r.wg)(),
             (0, r.iD)(
@@ -215,49 +217,49 @@
           name: "Heading3",
           props: { animation: { type: Boolean, default: !1 } },
           setup(e) {
-            const a = (0, c.iH)([]);
+            const a = (0, d.iH)([]);
             return e.animation && j(a, "animate-scroll-fade"), { heading: a };
           },
         });
-        const Z = (0, p.Z)(H, [["render", D]]);
+        const Z = (0, f.Z)(H, [["render", D]]);
         var C = Z;
         const I = { class: "text-lg text-secondary font-medium" };
-        function T(e, a, n, t, i, o) {
+        function T(e, a, n, i, t, o) {
           return (
             (0, r.wg)(), (0, r.iD)("h4", I, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var L = (0, r.aZ)({ name: "Heading4" });
-        const A = (0, p.Z)(L, [["render", T]]);
+        const A = (0, f.Z)(L, [["render", T]]);
         var F = A;
         const N = { class: "md:w-4/5 lg:w-2/3 md:mx-auto" };
-        function P(e, a, n, t, i, o) {
+        function P(e, a, n, i, t, o) {
           return (
             (0, r.wg)(), (0, r.iD)("div", N, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var $ = (0, r.aZ)({ name: "NarrowContainer" });
-        const E = (0, p.Z)($, [["render", P]]);
-        var B = E;
-        const O = { class: "block text-grayDark text-sm" };
-        function U(e, a, n, t, i, o) {
+        const E = (0, f.Z)($, [["render", P]]);
+        var U = E;
+        const B = { class: "block text-grayDark text-sm" };
+        function O(e, a, n, i, t, o) {
           return (
-            (0, r.wg)(), (0, r.iD)("span", O, [(0, r.WI)(e.$slots, "default")])
+            (0, r.wg)(), (0, r.iD)("span", B, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var K = (0, r.aZ)({ name: "Note" });
-        const M = (0, p.Z)(K, [["render", U]]);
+        const M = (0, f.Z)(K, [["render", O]]);
         var G = M;
         const J = { class: "text-grayDark text-justify" };
-        function Y(e, a, n, t, i, o) {
+        function Y(e, a, n, i, t, o) {
           return (
             (0, r.wg)(), (0, r.iD)("p", J, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var q = (0, r.aZ)({ name: "Paragraph" });
-        const Q = (0, p.Z)(q, [["render", Y]]);
+        const Q = (0, f.Z)(q, [["render", Y]]);
         var V = Q;
-        function R(e, a, n, t, i, o) {
+        function R(e, a, n, i, t, o) {
           return (
             (0, r.wg)(),
             (0, r.iD)(
@@ -277,14 +279,14 @@
           name: "Section",
           props: { border: { type: Boolean, default: !1 } },
         });
-        const ee = (0, p.Z)(X, [
+        const ee = (0, f.Z)(X, [
           ["render", R],
           ["__scopeId", "data-v-e81b3e36"],
         ]);
         var ae = ee;
         const ne = ["href", "aria-label"],
-          te = { class: "mr-0 md:mr-4 text-secondary" };
-        function ie(e, a, n, t, i, o) {
+          ie = { class: "mr-0 md:mr-4 text-secondary" };
+        function te(e, a, n, i, t, o) {
           const l = (0, r.up)("FontAwesomeIcon");
           return (
             (0, r.wg)(),
@@ -310,7 +312,7 @@
                   8,
                   ["icon"]
                 ),
-                (0, r._)("span", te, (0, s.zw)(e.contact.label), 1),
+                (0, r._)("span", ie, (0, s.zw)(e.contact.label), 1),
               ],
               8,
               ne
@@ -321,10 +323,10 @@
           name: "ContactItem",
           props: { contact: { type: Object } },
         });
-        const oe = (0, p.Z)(re, [["render", ie]]);
+        const oe = (0, f.Z)(re, [["render", te]]);
         var se = oe;
         const le = { class: "invisible", ref: "list" };
-        function ce(e, a, n, t, i, o) {
+        function ce(e, a, n, i, t, o) {
           const s = (0, r.up)("ContactItem");
           return (
             (0, r.wg)(),
@@ -361,16 +363,16 @@
           components: { ContactItem: se },
           props: { entities: { type: Array } },
           setup() {
-            const e = (0, c.iH)([]);
+            const e = (0, d.iH)([]);
             return j(e, "animate-scroll-left"), { list: e };
           },
         });
-        const ue = (0, p.Z)(de, [["render", ce]]);
+        const ue = (0, f.Z)(de, [["render", ce]]);
         var me = ue;
         const pe = { class: "invisible", ref: "photo" },
           fe = { class: "flex justify-center items-center md:justify-start" },
           ge = ["alt"];
-        function be(e, a, n, t, i, o) {
+        function be(e, a, n, i, t, o) {
           return (
             (0, r.wg)(),
             (0, r.iD)(
@@ -399,11 +401,11 @@
         var we = (0, r.aZ)({
           name: "Photo",
           setup() {
-            const e = (0, c.iH)([]);
+            const e = (0, d.iH)([]);
             return j(e, "animate-scroll-right"), { photo: e };
           },
         });
-        const ke = (0, p.Z)(we, [["render", be]]);
+        const ke = (0, f.Z)(we, [["render", be]]);
         var he = ke,
           ye = n(5658);
         const ve = () => {
@@ -463,7 +465,7 @@
                 ],
               },
             ]),
-            t = (0, r.Fl)(() => [
+            i = (0, r.Fl)(() => [
               {
                 id: "linkfactory",
                 period: e("experience.linkfactory.period"),
@@ -503,7 +505,7 @@
                 ],
               },
             ]),
-            i = (0, r.Fl)(() => [
+            t = (0, r.Fl)(() => [
               {
                 id: "email",
                 icon: "fa-solid fa-envelope",
@@ -542,8 +544,8 @@
                       {
                         name: "Vue",
                         icon: "fa-brands fa-vuejs",
-                        progress: 37.5,
-                        experience: e("skills.period.months", { number: "9" }),
+                        progress: 50,
+                        experience: e("skills.period.year", { number: "1+" }),
                       },
                       {
                         name: "React",
@@ -596,8 +598,8 @@
                       {
                         name: "Yarn",
                         icon: "fa-brands fa-yarn",
-                        progress: 37.5,
-                        experience: e("skills.period.months", { number: "9" }),
+                        progress: 50,
+                        experience: e("skills.period.year", { number: "1+" }),
                       },
                     ],
                   },
@@ -708,28 +710,28 @@
                 ],
               },
             ]);
-          return { articles: o, contacts: i, degrees: n, jobs: t, links: a };
+          return { articles: o, contacts: t, degrees: n, jobs: i, links: a };
         };
         var xe = (0, r.aZ)({
           name: "About",
           components: {
-            Container: g,
+            Container: b,
             Section: ae,
             Heading2: W,
             Paragraph: V,
             Photo: he,
-            NarrowContainer: B,
+            NarrowContainer: U,
             ContactList: me,
           },
           setup() {
             const { contacts: e } = ve(),
-              a = (0, c.iH)([]);
+              a = (0, d.iH)([]);
             return j(a, "animate-scroll-top"), { entities: e, description: a };
           },
         });
-        const ze = (0, p.Z)(xe, [["render", l]]);
+        const ze = (0, f.Z)(xe, [["render", c]]);
         var je = ze;
-        function _e(e, a, n, t, i, o) {
+        function _e(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading2"),
             c = (0, r.up)("Timeline"),
             d = (0, r.up)("Container"),
@@ -789,26 +791,26 @@
             )
           ),
           Ze = [De, He];
-        function Ce(e, a, n, t, i, o) {
+        function Ce(e, a, n, i, t, o) {
           return (0, r.wg)(), (0, r.iD)("aside", We, Ze);
         }
         var Ie = (0, r.aZ)({ name: "AsideLine" });
-        const Te = (0, p.Z)(Ie, [
+        const Te = (0, f.Z)(Ie, [
           ["render", Ce],
           ["__scopeId", "data-v-b5bbc0ac"],
         ]);
         var Le = Te;
         const Ae = { class: "p-2 block border-complementary border-2 text-sm" };
-        function Fe(e, a, n, t, i, o) {
+        function Fe(e, a, n, i, t, o) {
           return (
             (0, r.wg)(), (0, r.iD)("span", Ae, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var Ne = (0, r.aZ)({ name: "Block" });
-        const Pe = (0, p.Z)(Ne, [["render", Fe]]);
+        const Pe = (0, f.Z)(Ne, [["render", Fe]]);
         var $e = Pe;
         const Ee = { key: 0, class: "flex flex-wrap -m-1" };
-        function Be(e, a, n, t, i, o) {
+        function Ue(e, a, n, i, t, o) {
           const l = (0, r.up)("Block");
           return e.items.length
             ? ((0, r.wg)(),
@@ -839,15 +841,15 @@
               ]))
             : (0, r.kq)("", !0);
         }
-        var Oe = (0, r.aZ)({
+        var Be = (0, r.aZ)({
           name: "BlockList",
           components: { Block: $e },
           props: { items: { type: Array, default: () => [] } },
         });
-        const Ue = (0, p.Z)(Oe, [["render", Be]]);
-        var Ke = Ue;
+        const Oe = (0, f.Z)(Be, [["render", Ue]]);
+        var Ke = Oe;
         const Me = { key: 0, class: "block mb-2" };
-        function Ge(e, a, n, t, i, o) {
+        function Ge(e, a, n, i, t, o) {
           const l = (0, r.up)("AsideLine"),
             c = (0, r.up)("Heading3"),
             d = (0, r.up)("Note"),
@@ -958,16 +960,16 @@
           },
           props: { entities: { type: Array } },
           setup() {
-            const e = (0, c.iH)([]);
+            const e = (0, d.iH)([]);
             return j(e, "animate-scroll-top"), { periods: e };
           },
         });
-        const Ye = (0, p.Z)(Je, [["render", Ge]]);
+        const Ye = (0, f.Z)(Je, [["render", Ge]]);
         var qe = Ye,
           Qe = (0, r.aZ)({
             name: "Education",
             components: {
-              Container: g,
+              Container: b,
               Section: ae,
               Heading2: W,
               Timeline: qe,
@@ -977,9 +979,9 @@
               return { entities: e };
             },
           });
-        const Ve = (0, p.Z)(Qe, [["render", _e]]);
+        const Ve = (0, f.Z)(Qe, [["render", _e]]);
         var Re = Ve;
-        function Xe(e, a, n, t, i, o) {
+        function Xe(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading2"),
             c = (0, r.up)("Timeline"),
             d = (0, r.up)("Container"),
@@ -1017,21 +1019,21 @@
         }
         var ea = (0, r.aZ)({
           name: "Experience",
-          components: { Container: g, Section: ae, Heading2: W, Timeline: qe },
+          components: { Container: b, Section: ae, Heading2: W, Timeline: qe },
           setup() {
             const { jobs: e } = ve();
             return { entities: e };
           },
         });
-        const aa = (0, p.Z)(ea, [["render", Xe]]);
+        const aa = (0, f.Z)(ea, [["render", Xe]]);
         var na = aa;
-        const ta = { class: "flex justify-center items-center mb-4" },
-          ia = {
+        const ia = { class: "flex flex-col" },
+          ta = { class: "flex justify-center items-center mb-4" },
+          ra = {
             class: "text-tertiary text-2xl font-semibold font-chakra mr-2",
           },
-          ra = { key: 0, class: "block w-2 h-6 animate-caret-tertiary" },
-          oa = { class: "flex items-center" },
-          sa = { class: "font-chakra mr-2" },
+          oa = { key: 0, class: "block w-2 h-6 animate-caret-tertiary" },
+          sa = { class: "flex items-center" },
           la = { key: 0, class: "block w-2 h-10 animate-caret" },
           ca = {
             key: 0,
@@ -1044,7 +1046,7 @@
             href: "#about",
           },
           ua = { class: "mr-4" };
-        function ma(e, a, n, t, i, o) {
+        function ma(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading1"),
             c = (0, r.up)("NarrowContainer"),
             d = (0, r.up)("FontAwesomeIcon"),
@@ -1065,37 +1067,29 @@
                     },
                     {
                       default: (0, r.w5)(() => [
-                        (0, r.Wm)(
-                          l,
-                          { class: "flex flex-col" },
-                          {
-                            default: (0, r.w5)(() => [
-                              (0, r._)("p", ta, [
-                                (0, r._)(
-                                  "span",
-                                  ia,
-                                  (0, s.zw)(e.greetingsDest),
-                                  1
-                                ),
-                                e.loadingGreetings
-                                  ? ((0, r.wg)(), (0, r.iD)("span", ra))
-                                  : (0, r.kq)("", !0),
-                              ]),
-                              (0, r._)("p", oa, [
-                                (0, r._)(
-                                  "span",
-                                  sa,
-                                  (0, s.zw)(e.fullNameDest),
-                                  1
-                                ),
-                                e.loadingFullName
-                                  ? ((0, r.wg)(), (0, r.iD)("span", la))
-                                  : (0, r.kq)("", !0),
-                              ]),
-                            ]),
-                            _: 1,
-                          }
-                        ),
+                        (0, r._)("div", ia, [
+                          (0, r._)("div", ta, [
+                            (0, r._)("span", ra, (0, s.zw)(e.greetingsDest), 1),
+                            e.loadingGreetings
+                              ? ((0, r.wg)(), (0, r.iD)("span", oa))
+                              : (0, r.kq)("", !0),
+                          ]),
+                          (0, r._)("div", sa, [
+                            (0, r.Wm)(
+                              l,
+                              { class: "font-chakra mr-2" },
+                              {
+                                default: (0, r.w5)(() => [
+                                  (0, r.Uk)((0, s.zw)(e.fullNameDest), 1),
+                                ]),
+                                _: 1,
+                              }
+                            ),
+                            e.loadingFullName
+                              ? ((0, r.wg)(), (0, r.iD)("span", la))
+                              : (0, r.kq)("", !0),
+                          ]),
+                        ]),
                         (0, r.Wm)(
                           c,
                           { class: "my-8 md:my-12" },
@@ -1152,53 +1146,53 @@
         var fa = (0, r.aZ)({
           name: "Hero",
           components: {
-            Container: g,
+            Container: b,
             Section: ae,
-            Heading1: y,
-            NarrowContainer: B,
+            Heading1: v,
+            NarrowContainer: U,
           },
           setup() {
             const { t: e } = (0, ye.QT)(),
               { currentLocale: a } = pa(),
-              n = (0, c.iH)(e("hero.greetings")),
-              t = (0, c.iH)(e("hero.fullName")),
-              i = (0, c.iH)(""),
-              o = (0, c.iH)(""),
-              s = (0, c.iH)(!0),
-              l = (0, c.iH)(!1),
-              d = () => {
-                i.value.length < n.value.length
-                  ? ((i.value += n.value.charAt(i.value.length)),
-                    setTimeout(d, 100))
+              n = (0, d.iH)(e("hero.greetings")),
+              i = (0, d.iH)(e("hero.fullName")),
+              t = (0, d.iH)(""),
+              o = (0, d.iH)(""),
+              s = (0, d.iH)(!0),
+              l = (0, d.iH)(!1),
+              c = () => {
+                t.value.length < n.value.length
+                  ? ((t.value += n.value.charAt(t.value.length)),
+                    setTimeout(c, 100))
                   : setTimeout(() => {
                       (s.value = !1), (l.value = !0), u();
                     }, 250);
               },
               u = () => {
-                o.value.length < t.value.length
-                  ? ((o.value += t.value.charAt(o.value.length)),
+                o.value.length < i.value.length
+                  ? ((o.value += i.value.charAt(o.value.length)),
                     setTimeout(u, 100))
                   : setTimeout(() => {
                       l.value = !1;
                     }, 250);
               };
             return (
-              setTimeout(d, 200),
+              setTimeout(c, 200),
               (0, r.YP)(
                 a,
                 () => {
                   (n.value = e("hero.greetings")),
-                    (t.value = e("hero.fullName")),
-                    (i.value = ""),
+                    (i.value = e("hero.fullName")),
+                    (t.value = ""),
                     (o.value = ""),
                     (s.value = !0),
                     (l.value = !1),
-                    d();
+                    c();
                 },
                 { deep: !0 }
               ),
               {
-                greetingsDest: i,
+                greetingsDest: t,
                 fullNameDest: o,
                 loadingGreetings: s,
                 loadingFullName: l,
@@ -1206,12 +1200,12 @@
             );
           },
         });
-        const ga = (0, p.Z)(fa, [
+        const ga = (0, f.Z)(fa, [
           ["render", ma],
-          ["__scopeId", "data-v-255e7208"],
+          ["__scopeId", "data-v-1db8ed3e"],
         ]);
         var ba = ga;
-        function wa(e, a, n, t, i, o) {
+        function wa(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading2"),
             c = (0, r.up)("SkillArticle"),
             d = (0, r.up)("Container"),
@@ -1273,7 +1267,7 @@
           ha = { class: "flex items-center" },
           ya = { key: 1, class: "w-9" },
           va = { class: "text-primary mr-4" };
-        function xa(e, a, n, t, i, o) {
+        function xa(e, a, n, i, t, o) {
           const l = (0, r.up)("FontAwesomeIcon"),
             c = (0, r.up)("Note"),
             d = (0, r.up)("ProgressBar");
@@ -1319,7 +1313,7 @@
         const za = {
           class: "bg-complementary h-2 w-100 rounded-md overflow-hidden",
         };
-        function ja(e, a, n, t, i, o) {
+        function ja(e, a, n, i, t, o) {
           return (
             (0, r.wg)(),
             (0, r.iD)("div", za, [
@@ -1339,17 +1333,17 @@
           name: "ProgressBar",
           props: { progress: { type: Number } },
         });
-        const Sa = (0, p.Z)(_a, [["render", ja]]);
+        const Sa = (0, f.Z)(_a, [["render", ja]]);
         var Wa = Sa,
           Da = (0, r.aZ)({
             name: "Skill",
             components: { ProgressBar: Wa, Note: G },
             props: { skill: { type: Object } },
           });
-        const Ha = (0, p.Z)(Da, [["render", xa]]);
+        const Ha = (0, f.Z)(Da, [["render", xa]]);
         var Za = Ha;
         const Ca = { class: "flex flex-wrap justify-center -m-6" };
-        function Ia(e, a, n, t, i, o) {
+        function Ia(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading3"),
             c = (0, r.up)("Heading4"),
             d = (0, r.up)("Skill");
@@ -1438,16 +1432,16 @@
           components: { Heading3: C, Heading4: F, Skill: Za },
           props: { article: { type: Object } },
           setup() {
-            const e = (0, c.iH)([]);
+            const e = (0, d.iH)([]);
             return j(e, "animate-scroll-left"), { skills: e };
           },
         });
-        const La = (0, p.Z)(Ta, [["render", Ia]]);
+        const La = (0, f.Z)(Ta, [["render", Ia]]);
         var Aa = La,
           Fa = (0, r.aZ)({
             name: "Skills",
             components: {
-              Container: g,
+              Container: b,
               Section: ae,
               Heading2: W,
               SkillArticle: Aa,
@@ -1457,13 +1451,13 @@
               return { entities: e };
             },
           });
-        const Na = (0, p.Z)(Fa, [["render", wa]]);
+        const Na = (0, f.Z)(Fa, [["render", wa]]);
         var Pa = Na;
         const $a = { class: "bg-primary" },
           Ea = { class: "flex flex-col text-white mb-12 md:mb-0" },
-          Ba = ["href", "aria-label"],
-          Oa = { class: "md:flex md:flex-col md:justify-between" },
-          Ua = { class: "mb-12 text-white" },
+          Ua = ["href", "aria-label"],
+          Ba = { class: "md:flex md:flex-col md:justify-between" },
+          Oa = { class: "mb-12 text-white" },
           Ka = ["href", "aria-label"],
           Ma = { class: "mr-0 md:mr-4" },
           Ga = { class: "flex text-white md:justify-end" },
@@ -1474,11 +1468,11 @@
           Va = (0, r._)(
             "div",
             { class: "text-white text-center pb-4 text-sm" },
-            [(0, r._)("span", null, " © 2022 Karol Jaskółka ")],
+            [(0, r._)("p", null, " © 2022 Karol Jaskółka ")],
             -1
           ),
           Ra = (0, r._)("div", { class: "h-16 lg:h-0 bg-primary" }, null, -1);
-        function Xa(e, a, n, t, i, o) {
+        function Xa(e, a, n, i, t, o) {
           const l = (0, r.up)("FontAwesomeIcon"),
             c = (0, r.up)("Section"),
             d = (0, r.up)("Container");
@@ -1518,15 +1512,15 @@
                                       },
                                       (0, s.zw)(e.label),
                                       9,
-                                      Ba
+                                      Ua
                                     )
                                   )
                                 ),
                                 128
                               )),
                             ]),
-                            (0, r._)("aside", Oa, [
-                              (0, r._)("div", Ua, [
+                            (0, r._)("aside", Ba, [
+                              (0, r._)("div", Oa, [
                                 (0, r._)(
                                   "a",
                                   {
@@ -1621,13 +1615,13 @@
         }
         var en = (0, r.aZ)({
           name: "Footer",
-          components: { Section: ae, Container: g },
+          components: { Section: ae, Container: b },
           setup() {
             const { links: e } = ve();
             return { links: e };
           },
         });
-        const an = (0, p.Z)(en, [["render", Xa]]);
+        const an = (0, f.Z)(en, [["render", Xa]]);
         var nn = an;
         const tn = { class: "bg-primary text-complementary" },
           rn = (0, r._)(
@@ -1639,7 +1633,7 @@
           on = { class: "flex items-center" },
           sn = { class: "hidden lg:flex" },
           ln = ["href", "aria-label"];
-        function cn(e, a, n, t, i, o) {
+        function cn(e, a, n, i, t, o) {
           const l = (0, r.up)("LanguageSwitch"),
             c = (0, r.up)("Container");
           return (
@@ -1690,7 +1684,7 @@
         }
         const dn = { class: "flex" },
           un = ["onClick", "aria-label"];
-        function mn(e, a, n, t, i, o) {
+        function mn(e, a, n, i, t, o) {
           return (
             (0, r.wg)(),
             (0, r.iD)("div", dn, [
@@ -1736,17 +1730,17 @@
             return { changeLocale: e, locales: n, currentLocale: a };
           },
         });
-        const gn = (0, p.Z)(fn, [["render", mn]]);
+        const gn = (0, f.Z)(fn, [["render", mn]]);
         var bn = gn,
           wn = (0, r.aZ)({
             name: "Header",
-            components: { Container: g, LanguageSwitch: bn },
+            components: { Container: b, LanguageSwitch: bn },
             setup() {
               const { links: e } = ve();
               return { links: e };
             },
           });
-        const kn = (0, p.Z)(wn, [["render", cn]]);
+        const kn = (0, f.Z)(wn, [["render", cn]]);
         var hn = kn;
         const yn = {
             key: 0,
@@ -1757,7 +1751,7 @@
           },
           xn = ["href", "aria-label"],
           zn = { class: "hidden" };
-        function jn(e, a, n, t, i, o) {
+        function jn(e, a, n, i, t, o) {
           const l = (0, r.up)("FontAwesomeIcon");
           return e.links.length && !e.hidden
             ? ((0, r.wg)(),
@@ -1815,18 +1809,18 @@
         var Sn = (0, r.aZ)({
           name: "MobileNav",
           setup() {
-            const e = (0, c.iH)(!0),
+            const e = (0, d.iH)(!0),
               { links: a } = ve();
             return _n(e, 120), { links: a, hidden: e };
           },
         });
-        const Wn = (0, p.Z)(Sn, [
+        const Wn = (0, f.Z)(Sn, [
           ["render", jn],
           ["__scopeId", "data-v-15f36a68"],
         ]);
         var Dn = Wn;
         const Hn = ["aria-label"];
-        function Zn(e, a, n, t, i, o) {
+        function Zn(e, a, n, i, t, o) {
           const s = (0, r.up)("FontAwesomeIcon");
           return e.hidden
             ? (0, r.kq)("", !0)
@@ -1855,7 +1849,7 @@
         var Cn = (0, r.aZ)({
           name: "ScrollTop",
           setup() {
-            const e = (0, c.iH)(!0);
+            const e = (0, d.iH)(!0);
             _n(e, 120);
             const a = () => {
               window.scrollTo(0, 0);
@@ -1863,7 +1857,7 @@
             return { scrollTop: a, hidden: e };
           },
         });
-        const In = (0, p.Z)(Cn, [["render", Zn]]);
+        const In = (0, f.Z)(Cn, [["render", Zn]]);
         var Tn = In,
           Ln = (0, r.aZ)({
             name: "App",
@@ -1879,31 +1873,31 @@
               Hero: ba,
             },
           });
-        const An = (0, p.Z)(Ln, [["render", o]]);
+        const An = (0, f.Z)(Ln, [["render", o]]);
         var Fn = An,
           Nn = JSON.parse(
             '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Gorzów Wielkopolski, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 2 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 7 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","linkfactory":{"period":"07.2020 - now","company":"Linkfactory A/S","span":"2+ years","position":"Frontend Developer","description":"In Linkfactory on daily basis I work as a member of small team. Every day I gain new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed an web application in the Vue.js framework. Currently, I have contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
           ),
           Pn = JSON.parse(
-            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań na rynku.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","linkfactory":{"period":"07.2020 - obecnie","company":"Linkfactory A/S","span":"2+ lata","position":"Frontend Developer","description":"W Linkfactory na codzień pracuję w zespole złożonym z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend\'owych framework\'ów."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
+            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","linkfactory":{"period":"07.2020 - obecnie","company":"Linkfactory A/S","span":"2+ lata","position":"Frontend Developer","description":"W Linkfactory na codzień pracuję w zespole złożonym z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend\'owych framework\'ów."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
           );
         const $n = Object.values(pn),
           En = () => {
             const e = window.localStorage.getItem("locale") || "";
             return $n.includes(e) ? e : pn.PL;
           },
-          Bn = (0, ye.o)({
+          Un = (0, ye.o)({
             legacy: !1,
             locale: En(),
             fallbackLocale: pn.PL,
             globalInjection: !0,
             messages: { en: Nn, pl: Pn },
           });
-        var On = Bn,
-          Un = n(3494),
+        var Bn = Un,
+          On = n(3494),
           Kn = n(4551),
           Mn = n(8539);
-        Un.vI.add(
+        On.vI.add(
           Kn.rdb,
           Mn.HXv,
           Mn.mTx,
@@ -1931,37 +1925,37 @@
           Kn.iEy,
           Kn.QDZ
         ),
-          (0, t.ri)(Fn)
-            .use(On)
-            .component("FontAwesomeIcon", i.GN)
+          (0, i.ri)(Fn)
+            .use(Bn)
+            .component("FontAwesomeIcon", t.GN)
             .mount("#app");
       },
     },
     a = {};
-  function n(t) {
-    var i = a[t];
-    if (void 0 !== i) return i.exports;
-    var r = (a[t] = { exports: {} });
-    return e[t](r, r.exports, n), r.exports;
+  function n(i) {
+    var t = a[i];
+    if (void 0 !== t) return t.exports;
+    var r = (a[i] = { exports: {} });
+    return e[i](r, r.exports, n), r.exports;
   }
   (n.m = e),
     (function () {
       var e = [];
-      n.O = function (a, t, i, r) {
-        if (!t) {
+      n.O = function (a, i, t, r) {
+        if (!i) {
           var o = 1 / 0;
           for (d = 0; d < e.length; d++) {
-            (t = e[d][0]), (i = e[d][1]), (r = e[d][2]);
-            for (var s = !0, l = 0; l < t.length; l++)
+            (i = e[d][0]), (t = e[d][1]), (r = e[d][2]);
+            for (var s = !0, l = 0; l < i.length; l++)
               (!1 & r || o >= r) &&
               Object.keys(n.O).every(function (e) {
-                return n.O[e](t[l]);
+                return n.O[e](i[l]);
               })
-                ? t.splice(l--, 1)
+                ? i.splice(l--, 1)
                 : ((s = !1), r < o && (o = r));
             if (s) {
               e.splice(d--, 1);
-              var c = i();
+              var c = t();
               void 0 !== c && (a = c);
             }
           }
@@ -1969,7 +1963,7 @@
         }
         r = r || 0;
         for (var d = e.length; d > 0 && e[d - 1][2] > r; d--) e[d] = e[d - 1];
-        e[d] = [t, i, r];
+        e[d] = [i, t, r];
       };
     })(),
     (function () {
@@ -1987,10 +1981,10 @@
     })(),
     (function () {
       n.d = function (e, a) {
-        for (var t in a)
-          n.o(a, t) &&
-            !n.o(e, t) &&
-            Object.defineProperty(e, t, { enumerable: !0, get: a[t] });
+        for (var i in a)
+          n.o(a, i) &&
+            !n.o(e, i) &&
+            Object.defineProperty(e, i, { enumerable: !0, get: a[i] });
       };
     })(),
     (function () {
@@ -2013,32 +2007,32 @@
       n.O.j = function (a) {
         return 0 === e[a];
       };
-      var a = function (a, t) {
-          var i,
+      var a = function (a, i) {
+          var t,
             r,
-            o = t[0],
-            s = t[1],
-            l = t[2],
+            o = i[0],
+            s = i[1],
+            l = i[2],
             c = 0;
           if (
             o.some(function (a) {
               return 0 !== e[a];
             })
           ) {
-            for (i in s) n.o(s, i) && (n.m[i] = s[i]);
+            for (t in s) n.o(s, t) && (n.m[t] = s[t]);
             if (l) var d = l(n);
           }
-          for (a && a(t); c < o.length; c++)
+          for (a && a(i); c < o.length; c++)
             (r = o[c]), n.o(e, r) && e[r] && e[r][0](), (e[r] = 0);
           return n.O(d);
         },
-        t = (self["webpackChunkportfolio"] =
+        i = (self["webpackChunkportfolio"] =
           self["webpackChunkportfolio"] || []);
-      t.forEach(a.bind(null, 0)), (t.push = a.bind(null, t.push.bind(t)));
+      i.forEach(a.bind(null, 0)), (i.push = a.bind(null, i.push.bind(i)));
     })();
-  var t = n.O(void 0, [998], function () {
-    return n(520);
+  var i = n.O(void 0, [998], function () {
+    return n(931);
   });
-  t = n.O(t);
+  i = n.O(i);
 })();
-//# sourceMappingURL=app.ce3d1325.js.map
+//# sourceMappingURL=app.5cfe7f7d.js.map

@@ -1,12 +1,10 @@
 <template>
   <h2
-    class="text-4xl font-bold text-secondary flex flex-col justify-center items-center invisible"
+    class="text-4xl font-bold font-chakra text-secondary flex flex-col justify-center items-center invisible"
     ref="heading"
   >
     <FontAwesomeIcon v-if="icon" :icon="icon" class="mb-4" />
-    <span class="font-chakra">
-      <slot></slot>
-    </span>
+    <slot></slot>
   </h2>
 </template>
 

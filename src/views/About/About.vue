@@ -9,11 +9,11 @@
         <ContactList class="md:w-1/2 md:pl-6" :entities="entities" />
       </NarrowContainer>
       <NarrowContainer>
-        <Paragraph>
-          <span class="block invisible" ref="description">
+        <div class="invisible" ref="description">
+          <Paragraph>
             {{ $t("about.description") }}
-          </span>
-        </Paragraph>
+          </Paragraph>
+        </div>
       </NarrowContainer>
     </Container>
   </Section>
