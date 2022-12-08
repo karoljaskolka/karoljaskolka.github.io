@@ -1,10 +1,10 @@
 (function () {
   "use strict";
   var e = {
-      931: function (e, a, n) {
-        var i = n(9242),
-          t = n(7749),
-          r = n(3396);
+      65: function (e, a, n) {
+        var i = n(242),
+          t = n(749),
+          r = n(396);
         function o(e, a, n, i, t, o) {
           const s = (0, r.up)("Header"),
             l = (0, r.up)("Hero"),
@@ -37,7 +37,7 @@
             )
           );
         }
-        var s = n(7139);
+        var s = n(139);
         const l = { class: "invisible", ref: "description" };
         function c(e, a, n, i, t, o) {
           const c = (0, r.up)("Heading2"),
@@ -118,7 +118,7 @@
             )
           );
         }
-        var d = n(4870);
+        var d = n(870);
         const u = { class: "px-6 max-w-5xl mx-auto" };
         function m(e, a, n, i, t, o) {
           return (
@@ -407,7 +407,7 @@
         });
         const ke = (0, f.Z)(we, [["render", be]]);
         var he = ke,
-          ye = n(5658);
+          ye = n(658);
         const ve = () => {
           const { t: e } = (0, ye.QT)(),
             a = (0, r.Fl)(() => [
@@ -1468,7 +1468,7 @@
           Va = (0, r._)(
             "div",
             { class: "text-white text-center pb-4 text-sm" },
-            [(0, r._)("p", null, " © 2022 Karol Jaskółka ")],
+            [(0, r._)("p", null, "© 2022 Karol Jaskółka")],
             -1
           ),
           Ra = (0, r._)("div", { class: "h-16 lg:h-0 bg-primary" }, null, -1);
@@ -1894,9 +1894,9 @@
             messages: { en: Nn, pl: Pn },
           });
         var Bn = Un,
-          On = n(3494),
-          Kn = n(4551),
-          Mn = n(8539);
+          On = n(494),
+          Kn = n(551),
+          Mn = n(539);
         On.vI.add(
           Kn.rdb,
           Mn.HXv,
@@ -1967,19 +1967,6 @@
       };
     })(),
     (function () {
-      n.n = function (e) {
-        var a =
-          e && e.__esModule
-            ? function () {
-                return e["default"];
-              }
-            : function () {
-                return e;
-              };
-        return n.d(a, { a: a }), a;
-      };
-    })(),
-    (function () {
       n.d = function (e, a) {
         for (var i in a)
           n.o(a, i) &&
@@ -2031,8 +2018,8 @@
       i.forEach(a.bind(null, 0)), (i.push = a.bind(null, i.push.bind(i)));
     })();
   var i = n.O(void 0, [998], function () {
-    return n(931);
+    return n(65);
   });
   i = n.O(i);
 })();
-//# sourceMappingURL=app.5cfe7f7d.js.map
+//# sourceMappingURL=app.510e610e.js.map
