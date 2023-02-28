@@ -60,7 +60,7 @@
         </aside>
       </Section>
       <div class="text-white text-center pb-4 text-sm">
-        <p>&copy; 2022 Karol Jaskółka</p>
+        <p>&copy; 2023 Karol Jaskółka</p>
       </div>
     </Container>
   </footer>

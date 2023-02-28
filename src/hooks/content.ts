@@ -71,6 +71,15 @@ export const useContent = () => {
   const jobs = computed((): PeriodDto[] => {
     return [
       {
+        id: "synergy",
+        period: t("experience.synergy.period"),
+        heading: t("experience.synergy.company"),
+        note: t("experience.synergy.span"),
+        subheading: t("experience.synergy.position"),
+        description: t("experience.synergy.description"),
+        technologies: ["Angular", "TypeScript"],
+      },
+      {
         id: "linkfactory",
         period: t("experience.linkfactory.period"),
         heading: t("experience.linkfactory.company"),

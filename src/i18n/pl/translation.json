@@ -43,7 +43,7 @@
     "about": {
         "header": "O mnie",
         "photo": "Moje zdjęcie",
-        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad dwóch lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 7 lat temu."
+        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od niemal trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."
     },
     "education": {
         "header": "Wykształcenie",
@@ -64,12 +64,19 @@
     },
     "experience": {
         "header": "Doświadczenie",
+        "synergy": {
+            "period": "03.2023 - obecnie",
+            "company": "Synergy Codes",
+            "span": "<1 miesiąc",
+            "position": "Software Engineer",
+            "description": "Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych do wizualizacji danych tworzonych we frameworku Angular."
+        },
         "linkfactory": {
-            "period": "07.2020 - obecnie",
+            "period": "07.2020 - 02.2023",
             "company": "Linkfactory A/S",
-            "span": "2+ lata",
+            "span": "2 lata 8 miesięcy",
             "position": "Frontend Developer",
-            "description": "W Linkfactory na codzień pracuję w zespole złożonym z kilku osób. Każdego dnia zdobywam nowe doświadczenia z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Obecnie mam styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obcy żaden z trzech najpopularniejszych frontend'owych framework'ów."
+            "description": "W Linkfactory na codzień pracowałem w zespole złożonym z kilku osób. Zdobyłem doświadczenie z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Przez krótki okres czasu miałem styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obca żadna z trzech najpopularniejszych frontend'owych technologii."
         },
         "comarch": {
             "period": "07.2019 - 09.2019",
