@@ -213,7 +213,7 @@
             )
           );
         }
-        var Z = (0, r.aZ)({
+        var H = (0, r.aZ)({
           name: "Heading3",
           props: { animation: { type: Boolean, default: !1 } },
           setup(e) {
@@ -221,8 +221,8 @@
             return e.animation && j(a, "animate-scroll-fade"), { heading: a };
           },
         });
-        const H = (0, f.Z)(Z, [["render", D]]);
-        var C = H;
+        const Z = (0, f.Z)(H, [["render", D]]);
+        var C = Z;
         const I = { class: "text-lg text-secondary font-medium" };
         function A(e, a, n, i, t, o) {
           return (
@@ -247,13 +247,13 @@
             (0, r.wg)(), (0, r.iD)("span", B, [(0, r.WI)(e.$slots, "default")])
           );
         }
-        var K = (0, r.aZ)({ name: "Note" });
-        const M = (0, f.Z)(K, [["render", O]]);
-        var G = M;
-        const J = { class: "text-grayDark text-justify" };
+        var M = (0, r.aZ)({ name: "Note" });
+        const G = (0, f.Z)(M, [["render", O]]);
+        var J = G;
+        const K = { class: "text-grayDark text-justify" };
         function Y(e, a, n, i, t, o) {
           return (
-            (0, r.wg)(), (0, r.iD)("p", J, [(0, r.WI)(e.$slots, "default")])
+            (0, r.wg)(), (0, r.iD)("p", K, [(0, r.WI)(e.$slots, "default")])
           );
         }
         var q = (0, r.aZ)({ name: "Paragraph" });
@@ -473,7 +473,16 @@
                 note: e("experience.synergy.span"),
                 subheading: e("experience.synergy.position"),
                 description: e("experience.synergy.description"),
-                technologies: ["Angular", "TypeScript"],
+                technologies: [
+                  "Angular",
+                  "TypeScript",
+                  "Git",
+                  "CSS",
+                  "HTML",
+                  "Azure DevOps",
+                  "Windows",
+                  "Jira",
+                ],
               },
               {
                 id: "linkfactory",
@@ -510,6 +519,7 @@
                   "Microsoft Bot Framework",
                   "Angular",
                   "TypeScript",
+                  "Windows",
                   "Jira",
                 ],
               },
@@ -548,7 +558,7 @@
                         name: "Angular",
                         icon: "fa-brands fa-angular",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "Vue",
@@ -559,7 +569,7 @@
                       {
                         name: "React",
                         icon: "fa-brands fa-react",
-                        progress: 12.5,
+                        progress: 8.5,
                         experience: e("skills.period.months-alt", {
                           number: "3",
                         }),
@@ -573,25 +583,25 @@
                         name: "JavaScript / TypeScript",
                         icon: "fa-brands fa-js",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "HTML",
                         icon: "fa-brands fa-html5",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "CSS",
                         icon: "fa-brands fa-css3-alt",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "Sass",
                         icon: "fa-brands fa-sass",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                     ],
                   },
@@ -602,13 +612,13 @@
                         name: "Npm",
                         icon: "fa-brands fa-npm",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "Yarn",
                         icon: "fa-brands fa-yarn",
-                        progress: 50,
-                        experience: e("skills.period.year", { number: "1+" }),
+                        progress: 66.66,
+                        experience: e("skills.period.years", { number: "2+" }),
                       },
                     ],
                   },
@@ -653,8 +663,8 @@
                       {
                         name: "SQL / MySQL",
                         icon: "fa-solid fa-database",
-                        progress: 5,
-                        experience: e("skills.period.month", { number: "<1" }),
+                        progress: 2.75,
+                        experience: e("skills.period.month", { number: "1+" }),
                       },
                     ],
                   },
@@ -665,30 +675,30 @@
                         name: "Git",
                         icon: "fa-brands fa-git-alt",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "Jira",
                         icon: "fa-brands fa-jira",
                         progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
-                      },
-                      {
-                        name: "Ubuntu Linux",
-                        icon: "fa-brands fa-ubuntu",
-                        progress: 100,
-                        experience: e("skills.period.years", { number: "2+" }),
+                        experience: e("skills.period.years", { number: "3+" }),
                       },
                       {
                         name: "VS Code",
                         icon: "fa-solid fa-code",
                         progress: 100,
+                        experience: e("skills.period.years", { number: "3+" }),
+                      },
+                      {
+                        name: "Ubuntu Linux",
+                        icon: "fa-brands fa-ubuntu",
+                        progress: 85,
                         experience: e("skills.period.years", { number: "2+" }),
                       },
                       {
                         name: "Jenkins",
                         icon: "fa-brands fa-jenkins",
-                        progress: 5,
+                        progress: 2.75,
                         experience: e("skills.period.month", { number: "<1" }),
                       },
                     ],
@@ -791,7 +801,7 @@
               -1
             )
           ),
-          Ze = _e(() =>
+          He = _e(() =>
             (0, r._)(
               "div",
               { class: "aside-line w-1 rounded-md bg-primary h-full" },
@@ -799,9 +809,9 @@
               -1
             )
           ),
-          He = [De, Ze];
+          Ze = [De, He];
         function Ce(e, a, n, i, t, o) {
-          return (0, r.wg)(), (0, r.iD)("aside", We, He);
+          return (0, r.wg)(), (0, r.iD)("aside", We, Ze);
         }
         var Ie = (0, r.aZ)({ name: "AsideLine" });
         const Ae = (0, f.Z)(Ie, [
@@ -856,9 +866,9 @@
           props: { items: { type: Array, default: () => [] } },
         });
         const Oe = (0, f.Z)(Be, [["render", Ue]]);
-        var Ke = Oe;
-        const Me = { key: 0, class: "block mb-2" };
-        function Ge(e, a, n, i, t, o) {
+        var Me = Oe;
+        const Ge = { key: 0, class: "block mb-2" };
+        function Je(e, a, n, i, t, o) {
           const l = (0, r.up)("AsideLine"),
             c = (0, r.up)("Heading3"),
             d = (0, r.up)("Note"),
@@ -885,7 +895,7 @@
                         [
                           e.period
                             ? ((0, r.wg)(),
-                              (0, r.iD)("span", Me, (0, s.zw)(e.period), 1))
+                              (0, r.iD)("span", Ge, (0, s.zw)(e.period), 1))
                             : (0, r.kq)("", !0),
                           e.heading
                             ? ((0, r.wg)(),
@@ -957,15 +967,15 @@
             )
           );
         }
-        var Je = (0, r.aZ)({
+        var Ke = (0, r.aZ)({
           name: "Timeline",
           components: {
             AsideLine: Te,
-            BlockList: Ke,
+            BlockList: Me,
             Heading3: C,
             Heading4: F,
             Paragraph: V,
-            Note: G,
+            Note: J,
           },
           props: { entities: { type: Array } },
           setup() {
@@ -973,7 +983,7 @@
             return j(e, "animate-scroll-top"), { periods: e };
           },
         });
-        const Ye = (0, f.Z)(Je, [["render", Ge]]);
+        const Ye = (0, f.Z)(Ke, [["render", Je]]);
         var qe = Ye,
           Qe = (0, r.aZ)({
             name: "Education",
@@ -1346,11 +1356,11 @@
         var Wa = _a,
           Da = (0, r.aZ)({
             name: "Skill",
-            components: { ProgressBar: Wa, Note: G },
+            components: { ProgressBar: Wa, Note: J },
             props: { skill: { type: Object } },
           });
-        const Za = (0, f.Z)(Da, [["render", xa]]);
-        var Ha = Za;
+        const Ha = (0, f.Z)(Da, [["render", xa]]);
+        var Za = Ha;
         const Ca = { class: "flex flex-wrap justify-center -m-6" };
         function Ia(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading3"),
@@ -1438,7 +1448,7 @@
         }
         var Aa = (0, r.aZ)({
           name: "SkillArticle",
-          components: { Heading3: C, Heading4: F, Skill: Ha },
+          components: { Heading3: C, Heading4: F, Skill: Za },
           props: { article: { type: Object } },
           setup() {
             const e = (0, d.iH)([]);
@@ -1467,10 +1477,10 @@
           Ua = ["href", "aria-label"],
           Ba = { class: "md:flex md:flex-col md:justify-between" },
           Oa = { class: "mb-12 text-white" },
+          Ma = ["href", "aria-label"],
+          Ga = { class: "mr-0 md:mr-4" },
+          Ja = { class: "flex text-white md:justify-end" },
           Ka = ["href", "aria-label"],
-          Ma = { class: "mr-0 md:mr-4" },
-          Ga = { class: "flex text-white md:justify-end" },
-          Ja = ["href", "aria-label"],
           Ya = { class: "hidden" },
           qa = ["href", "aria-label"],
           Qa = { class: "hidden" },
@@ -1547,16 +1557,16 @@
                                     }),
                                     (0, r._)(
                                       "span",
-                                      Ma,
+                                      Ga,
                                       (0, s.zw)(e.$t("contact.email.label")),
                                       1
                                     ),
                                   ],
                                   8,
-                                  Ka
+                                  Ma
                                 ),
                               ]),
-                              (0, r._)("div", Ga, [
+                              (0, r._)("div", Ja, [
                                 (0, r._)(
                                   "a",
                                   {
@@ -1579,7 +1589,7 @@
                                     ),
                                   ],
                                   8,
-                                  Ja
+                                  Ka
                                 ),
                                 (0, r._)(
                                   "a",
@@ -1828,8 +1838,8 @@
           ["__scopeId", "data-v-15f36a68"],
         ]);
         var Dn = Wn;
-        const Zn = ["aria-label"];
-        function Hn(e, a, n, i, t, o) {
+        const Hn = ["aria-label"];
+        function Zn(e, a, n, i, t, o) {
           const s = (0, r.up)("FontAwesomeIcon");
           return e.hidden
             ? (0, r.kq)("", !0)
@@ -1852,7 +1862,7 @@
                   }),
                 ],
                 8,
-                Zn
+                Hn
               ));
         }
         var Cn = (0, r.aZ)({
@@ -1866,7 +1876,7 @@
             return { scrollTop: a, hidden: e };
           },
         });
-        const In = (0, f.Z)(Cn, [["render", Hn]]);
+        const In = (0, f.Z)(Cn, [["render", Zn]]);
         var An = In,
           Tn = (0, r.aZ)({
             name: "App",
@@ -1885,10 +1895,10 @@
         const Ln = (0, f.Z)(Tn, [["render", o]]);
         var Fn = Ln,
           Nn = JSON.parse(
-            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Gorzów Wielkopolski, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for almost 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","synergy":{"period":"03.2023 - now","company":"Synergy Codes","span":"<1 month","position":"Software Developer","description":"Working as a Frontend Developer focused on web applications made with Angular framework."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 years 8 months","position":"Frontend Developer","description":"In Linkfactory on daily basis I worked as a member of small team. I gained new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed a web application in the Vue.js framework. I had also contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
+            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Gorzów Wielkopolski, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","synergy":{"period":"03.2023 - now","company":"Synergy Codes","span":"<2 months","position":"Software Developer","description":"Working as a Frontend Developer focused on web applications made with Angular framework."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 years 8 months","position":"Frontend Developer","description":"In Linkfactory on daily basis I worked as a member of small team. I gained new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed a web application in the Vue.js framework. I had also contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
           ),
           Pn = JSON.parse(
-            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od niemal trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","synergy":{"period":"03.2023 - obecnie","company":"Synergy Codes","span":"<1 miesiąc","position":"Software Developer","description":"Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 lata 8 miesięcy","position":"Frontend Developer","description":"W Linkfactory na codzień pracowałem w zespole złożonym z kilku osób. Zdobyłem doświadczenie z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Przez krótki okres czasu miałem styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obca żadna z trzech najpopularniejszych frontend\'owych technologii."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
+            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","synergy":{"period":"03.2023 - obecnie","company":"Synergy Codes","span":"<2 miesiące","position":"Software Developer","description":"Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 lata 8 miesięcy","position":"Frontend Developer","description":"W Linkfactory na codzień pracowałem w zespole złożonym z kilku osób. Zdobyłem doświadczenie z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Przez krótki okres czasu miałem styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obca żadna z trzech najpopularniejszych frontend\'owych technologii."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
           );
         const $n = Object.values(pn),
           En = () => {
@@ -1904,35 +1914,35 @@
           });
         var Bn = Un,
           On = n(494),
-          Kn = n(551),
-          Mn = n(539);
+          Mn = n(551),
+          Gn = n(539);
         On.vI.add(
-          Kn.rdb,
-          Mn.HXv,
-          Mn.mTx,
-          Mn.dT$,
-          Mn.hGM,
-          Kn.IRt,
-          Mn.t5N,
-          Mn.FU$,
-          Kn.Pdy,
-          Kn.zhw,
-          Mn.Xf_,
-          Kn.GJX,
-          Kn.UIj,
-          Kn.dc_,
-          Kn.DTC,
-          Kn.D9H,
-          Kn.TV_,
-          Kn.xDz,
-          Kn.Bmx,
-          Kn.wn1,
-          Kn.pX7,
-          Kn.JmK,
-          Mn.ILF,
-          Kn.Vrw,
-          Kn.iEy,
-          Kn.QDZ
+          Mn.rdb,
+          Gn.HXv,
+          Gn.mTx,
+          Gn.dT$,
+          Gn.hGM,
+          Mn.IRt,
+          Gn.t5N,
+          Gn.FU$,
+          Mn.Pdy,
+          Mn.zhw,
+          Gn.Xf_,
+          Mn.GJX,
+          Mn.UIj,
+          Mn.dc_,
+          Mn.DTC,
+          Mn.D9H,
+          Mn.TV_,
+          Mn.xDz,
+          Mn.Bmx,
+          Mn.wn1,
+          Mn.pX7,
+          Mn.JmK,
+          Gn.ILF,
+          Mn.Vrw,
+          Mn.iEy,
+          Mn.QDZ
         ),
           (0, i.ri)(Fn)
             .use(Bn)
@@ -2031,4 +2041,4 @@
   });
   i = n.O(i);
 })();
-//# sourceMappingURL=app.4f6fd7c2.js.map
+//# sourceMappingURL=app.e4ad039c.js.map

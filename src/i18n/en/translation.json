@@ -43,7 +43,7 @@
     "about": {
         "header": "About",
         "photo": "Photo of myself",
-        "description": "Hi, I am Karol. I have been working as a Frontend Developer for almost 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."
+        "description": "Hi, I am Karol. I have been working as a Frontend Developer for over 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."
     },
     "education": {
         "header": "Education",
@@ -67,7 +67,7 @@
         "synergy": {
             "period": "03.2023 - now",
             "company": "Synergy Codes",
-            "span": "<1 month",
+            "span": "<2 months",
             "position": "Software Developer",
             "description": "Working as a Frontend Developer focused on web applications made with Angular framework."
         },
