@@ -85,7 +85,6 @@ export const useContent = () => {
           "HTML",
           "Azure DevOps",
           "Windows",
-          "Jira",
         ],
       },
       {
