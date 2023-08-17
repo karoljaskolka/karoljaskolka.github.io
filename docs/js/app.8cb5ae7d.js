@@ -1,10 +1,10 @@
 (function () {
   "use strict";
   var e = {
-      518: function (e, a, n) {
-        var i = n(242),
-          t = n(749),
-          r = n(396);
+      5518: function (e, a, n) {
+        var i = n(9242),
+          t = n(7749),
+          r = n(3396);
         function o(e, a, n, i, t, o) {
           const s = (0, r.up)("Header"),
             l = (0, r.up)("Hero"),
@@ -33,11 +33,11 @@
                 (0, r.Wm)(f),
                 (0, r.Wm)(g),
               ],
-              64
+              64,
             )
           );
         }
-        var s = n(139);
+        var s = n(7139);
         const l = { class: "invisible", ref: "description" };
         function c(e, a, n, i, t, o) {
           const c = (0, r.up)("Heading2"),
@@ -64,7 +64,7 @@
                             (0, r.Uk)((0, s.zw)(e.$t("about.header")), 1),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       (0, r.Wm)(
                         m,
@@ -82,11 +82,11 @@
                               },
                               null,
                               8,
-                              ["entities"]
+                              ["entities"],
                             ),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       (0, r.Wm)(m, null, {
                         default: (0, r.w5)(() => [
@@ -98,13 +98,13 @@
                                 default: (0, r.w5)(() => [
                                   (0, r.Uk)(
                                     (0, s.zw)(e.$t("about.description")),
-                                    1
+                                    1,
                                   ),
                                 ]),
                                 _: 1,
                               }),
                             ],
-                            512
+                            512,
                           ),
                         ]),
                         _: 1,
@@ -114,11 +114,11 @@
                   }),
                 ]),
                 _: 1,
-              }
+              },
             )
           );
         }
-        var d = n(870);
+        var d = n(4870);
         const u = { class: "px-6 max-w-5xl mx-auto" };
         function m(e, a, n, i, t, o) {
           return (
@@ -158,12 +158,12 @@
                       { key: 0, icon: e.icon, class: "mb-4" },
                       null,
                       8,
-                      ["icon"]
+                      ["icon"],
                     ))
                   : (0, r.kq)("", !0),
                 (0, r.WI)(e.$slots, "default"),
               ],
-              512
+              512,
             )
           );
         }
@@ -209,11 +209,11 @@
                 ref: "heading",
               },
               [(0, r.WI)(e.$slots, "default")],
-              2
+              2,
             )
           );
         }
-        var H = (0, r.aZ)({
+        var Z = (0, r.aZ)({
           name: "Heading3",
           props: { animation: { type: Boolean, default: !1 } },
           setup(e) {
@@ -221,8 +221,8 @@
             return e.animation && j(a, "animate-scroll-fade"), { heading: a };
           },
         });
-        const Z = (0, f.Z)(H, [["render", D]]);
-        var C = Z;
+        const H = (0, f.Z)(Z, [["render", D]]);
+        var C = H;
         const I = { class: "text-lg text-secondary font-medium" };
         function A(e, a, n, i, t, o) {
           return (
@@ -271,7 +271,7 @@
                 ]),
               },
               [(0, r.WI)(e.$slots, "default", {}, void 0, !0)],
-              2
+              2,
             )
           );
         }
@@ -310,12 +310,12 @@
                   },
                   null,
                   8,
-                  ["icon"]
+                  ["icon"],
                 ),
                 (0, r._)("span", ie, (0, s.zw)(e.contact.label), 1),
               ],
               8,
-              ne
+              ne,
             )
           );
         }
@@ -347,14 +347,14 @@
                         { key: e.id, contact: e, class: "mb-4 last:mb-0" },
                         null,
                         8,
-                        ["contact"]
+                        ["contact"],
                       )
-                    )
+                    ),
                   ),
-                  128
+                  128,
                 )),
               ],
-              512
+              512,
             )
           );
         }
@@ -390,11 +390,11 @@
                     },
                     null,
                     8,
-                    ge
+                    ge,
                   ),
                 ]),
               ],
-              512
+              512,
             )
           );
         }
@@ -407,7 +407,7 @@
         });
         const ke = (0, f.Z)(we, [["render", be]]);
         var he = ke,
-          ye = n(658);
+          ye = n(5658);
         const ve = () => {
           const { t: e } = (0, ye.QT)(),
             a = (0, r.Fl)(() => [
@@ -771,7 +771,7 @@
                             (0, r.Uk)((0, s.zw)(e.$t("education.header")), 1),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       (0, r.Wm)(c, { entities: e.entities }, null, 8, [
                         "entities",
@@ -781,7 +781,7 @@
                   }),
                 ]),
                 _: 1,
-              }
+              },
             )
           );
         }
@@ -797,20 +797,20 @@
                   "aside-dot absolute w-8 h-8 bg-white flex items-center justify-center rounded-xl",
               },
               [(0, r._)("div", { class: "w-4 h-4 bg-tertiary rounded-xl" })],
-              -1
-            )
+              -1,
+            ),
           ),
-          He = _e(() =>
+          Ze = _e(() =>
             (0, r._)(
               "div",
               { class: "aside-line w-1 rounded-md bg-primary h-full" },
               null,
-              -1
-            )
+              -1,
+            ),
           ),
-          Ze = [De, He];
+          He = [De, Ze];
         function Ce(e, a, n, i, t, o) {
-          return (0, r.wg)(), (0, r.iD)("aside", We, Ze);
+          return (0, r.wg)(), (0, r.iD)("aside", We, He);
         }
         var Ie = (0, r.aZ)({ name: "AsideLine" });
         const Ae = (0, f.Z)(Ie, [
@@ -850,11 +850,11 @@
                           ]),
                           _: 2,
                         },
-                        1024
+                        1024,
                       )
-                    )
+                    ),
                   ),
-                  128
+                  128,
                 )),
               ]))
             : (0, r.kq)("", !0);
@@ -907,7 +907,7 @@
                                   ]),
                                   _: 2,
                                 },
-                                1024
+                                1024,
                               ))
                             : (0, r.kq)("", !0),
                           e.note
@@ -921,7 +921,7 @@
                                   ]),
                                   _: 2,
                                 },
-                                1024
+                                1024,
                               ))
                             : (0, r.kq)("", !0),
                           e.subheading
@@ -935,7 +935,7 @@
                                   ]),
                                   _: 2,
                                 },
-                                1024
+                                1024,
                               ))
                             : (0, r.kq)("", !0),
                           e.description
@@ -949,20 +949,20 @@
                                   ]),
                                   _: 2,
                                 },
-                                1024
+                                1024,
                               ))
                             : (0, r.kq)("", !0),
                           (0, r.Wm)(p, { items: e.technologies }, null, 8, [
                             "items",
                           ]),
                         ],
-                        512
+                        512,
                       ),
-                    ]
+                    ],
                   )
-                )
+                ),
               ),
-              128
+              128,
             )
           );
         }
@@ -1021,7 +1021,7 @@
                             (0, r.Uk)((0, s.zw)(e.$t("experience.header")), 1),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       (0, r.Wm)(c, { entities: e.entities }, null, 8, [
                         "entities",
@@ -1031,7 +1031,7 @@
                   }),
                 ]),
                 _: 1,
-              }
+              },
             )
           );
         }
@@ -1101,7 +1101,7 @@
                                   (0, r.Uk)((0, s.zw)(e.fullNameDest), 1),
                                 ]),
                                 _: 1,
-                              }
+                              },
                             ),
                             e.loadingFullName
                               ? ((0, r.wg)(), (0, r.iD)("span", la))
@@ -1120,11 +1120,11 @@
                                     "p",
                                     ca,
                                     (0, s.zw)(e.$t("hero.description")),
-                                    1
+                                    1,
                                   )),
                             ]),
                             _: 1,
-                          }
+                          },
                         ),
                         e.loadingFullName || e.loadingGreetings
                           ? (0, r.kq)("", !0)
@@ -1134,7 +1134,7 @@
                                 "span",
                                 ua,
                                 (0, s.zw)(e.$t("hero.button")),
-                                1
+                                1,
                               ),
                               (0, r.Wm)(d, {
                                 icon: "fa-solid fa-chevron-up",
@@ -1143,11 +1143,11 @@
                             ])),
                       ]),
                       _: 1,
-                    }
+                    },
                   ),
                 ]),
                 _: 1,
-              }
+              },
             )
           );
         }
@@ -1207,7 +1207,7 @@
                     (l.value = !1),
                     c();
                 },
-                { deep: !0 }
+                { deep: !0 },
               ),
               {
                 greetingsDest: t,
@@ -1245,7 +1245,7 @@
                             (0, r.Uk)((0, s.zw)(e.$t("skills.header")), 1),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       ((0, r.wg)(!0),
                       (0, r.iD)(
@@ -1266,18 +1266,18 @@
                               },
                               null,
                               8,
-                              ["class", "article"]
+                              ["class", "article"],
                             )
-                          )
+                          ),
                         ),
-                        128
+                        128,
                       )),
                     ]),
                     _: 1,
                   }),
                 ]),
                 _: 1,
-              }
+              },
             )
           );
         }
@@ -1306,7 +1306,7 @@
                         },
                         null,
                         8,
-                        ["icon"]
+                        ["icon"],
                       ))
                     : ((0, r.wg)(), (0, r.iD)("span", ya)),
                   (0, r._)("span", va, (0, s.zw)(e.skill.name), 1),
@@ -1319,7 +1319,7 @@
                       (0, r.Uk)((0, s.zw)(e.skill.experience), 1),
                     ]),
                     _: 1,
-                  }
+                  },
                 ),
               ]),
               (0, r.Wm)(d, { progress: e.skill.progress }, null, 8, [
@@ -1342,7 +1342,7 @@
                   style: (0, s.j5)({ width: `${e.progress}%` }),
                 },
                 null,
-                4
+                4,
               ),
             ])
           );
@@ -1358,8 +1358,8 @@
             components: { ProgressBar: Wa, Note: K },
             props: { skill: { type: Object } },
           });
-        const Ha = (0, f.Z)(Da, [["render", xa]]);
-        var Za = Ha;
+        const Za = (0, f.Z)(Da, [["render", xa]]);
+        var Ha = Za;
         const Ca = { class: "flex flex-wrap justify-center -m-6" };
         function Ia(e, a, n, i, t, o) {
           const l = (0, r.up)("Heading3"),
@@ -1376,7 +1376,7 @@
                     (0, r.Uk)((0, s.zw)(e.article.heading), 1),
                   ]),
                   _: 1,
-                }
+                },
               ),
               (0, r._)("div", Ca, [
                 ((0, r.wg)(!0),
@@ -1411,7 +1411,7 @@
                                   ]),
                                   _: 2,
                                 },
-                                1024
+                                1024,
                               ),
                               ((0, r.wg)(!0),
                               (0, r.iD)(
@@ -1426,20 +1426,20 @@
                                       { key: e.name, class: "mb-5", skill: e },
                                       null,
                                       8,
-                                      ["skill"]
+                                      ["skill"],
                                     )
-                                  )
+                                  ),
                                 ),
-                                128
+                                128,
                               )),
                             ],
-                            512
+                            512,
                           ),
-                        ]
+                        ],
                       )
-                    )
+                    ),
                   ),
-                  128
+                  128,
                 )),
               ]),
             ])
@@ -1447,7 +1447,7 @@
         }
         var Aa = (0, r.aZ)({
           name: "SkillArticle",
-          components: { Heading3: C, Heading4: F, Skill: Za },
+          components: { Heading3: C, Heading4: F, Skill: Ha },
           props: { article: { type: Object } },
           setup() {
             const e = (0, d.iH)([]);
@@ -1487,7 +1487,7 @@
             "div",
             { class: "text-white text-center pb-4 text-sm" },
             [(0, r._)("p", null, "© 2023 Karol Jaskółka")],
-            -1
+            -1,
           ),
           Ra = (0, r._)("div", { class: "h-16 lg:h-0 bg-primary" }, null, -1);
         function Xa(e, a, n, i, t, o) {
@@ -1530,11 +1530,11 @@
                                       },
                                       (0, s.zw)(e.label),
                                       9,
-                                      Ua
+                                      Ua,
                                     )
-                                  )
+                                  ),
                                 ),
-                                128
+                                128,
                               )),
                             ]),
                             (0, r._)("aside", Ba, [
@@ -1558,11 +1558,11 @@
                                       "span",
                                       Ga,
                                       (0, s.zw)(e.$t("contact.email.label")),
-                                      1
+                                      1,
                                     ),
                                   ],
                                   8,
-                                  Ma
+                                  Ma,
                                 ),
                               ]),
                               (0, r._)("div", Ka, [
@@ -1584,11 +1584,11 @@
                                       "span",
                                       Ya,
                                       (0, s.zw)(e.$t("contact.linkedin.label")),
-                                      1
+                                      1,
                                     ),
                                   ],
                                   8,
-                                  Ja
+                                  Ja,
                                 ),
                                 (0, r._)(
                                   "a",
@@ -1608,17 +1608,17 @@
                                       "span",
                                       Qa,
                                       (0, s.zw)(e.$t("contact.github.label")),
-                                      1
+                                      1,
                                     ),
                                   ],
                                   8,
-                                  qa
+                                  qa,
                                 ),
                               ]),
                             ]),
                           ]),
                           _: 1,
-                        }
+                        },
                       ),
                       Va,
                     ]),
@@ -1627,7 +1627,7 @@
                 ]),
                 Ra,
               ],
-              64
+              64,
             )
           );
         }
@@ -1646,7 +1646,7 @@
             "div",
             { class: "font-chakra text-xl sm:text-2xl uppercase" },
             " Karol Jaskółka ",
-            -1
+            -1,
           ),
           on = { class: "flex items-center" },
           sn = { class: "hidden lg:flex" },
@@ -1684,18 +1684,18 @@
                                 },
                                 (0, s.zw)(e.label),
                                 9,
-                                ln
+                                ln,
                               )
-                            )
+                            ),
                           ),
-                          128
+                          128,
                         )),
                       ]),
                       (0, r.Wm)(l, { class: "ml-4 md:ml-12" }),
                     ]),
                   ]),
                   _: 1,
-                }
+                },
               ),
             ])
           );
@@ -1727,11 +1727,11 @@
                       },
                       (0, s.zw)(a),
                       11,
-                      un
+                      un,
                     )
-                  )
+                  ),
                 ),
-                128
+                128,
               )),
             ])
           );
@@ -1798,16 +1798,16 @@
                               { class: "w-5 h-5", icon: e.icon },
                               null,
                               8,
-                              ["icon"]
+                              ["icon"],
                             ),
                             (0, r._)("span", zn, (0, s.zw)(e.label), 1),
                           ],
                           8,
-                          xn
+                          xn,
                         )
-                      )
+                      ),
                     ),
-                    128
+                    128,
                   )),
                 ]),
               ]))
@@ -1837,8 +1837,8 @@
           ["__scopeId", "data-v-15f36a68"],
         ]);
         var Dn = Wn;
-        const Hn = ["aria-label"];
-        function Zn(e, a, n, i, t, o) {
+        const Zn = ["aria-label"];
+        function Hn(e, a, n, i, t, o) {
           const s = (0, r.up)("FontAwesomeIcon");
           return e.hidden
             ? (0, r.kq)("", !0)
@@ -1861,7 +1861,7 @@
                   }),
                 ],
                 8,
-                Hn
+                Zn,
               ));
         }
         var Cn = (0, r.aZ)({
@@ -1875,7 +1875,7 @@
             return { scrollTop: a, hidden: e };
           },
         });
-        const In = (0, f.Z)(Cn, [["render", Zn]]);
+        const In = (0, f.Z)(Cn, [["render", Hn]]);
         var An = In,
           Tn = (0, r.aZ)({
             name: "App",
@@ -1894,10 +1894,10 @@
         const Ln = (0, f.Z)(Tn, [["render", o]]);
         var Fn = Ln,
           Nn = JSON.parse(
-            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Gorzów Wielkopolski, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","synergy":{"period":"03.2023 - now","company":"Synergy Codes","span":"3+ months","position":"Software Developer","description":"Working as a Frontend Developer focused on web applications made with Angular framework."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 years 8 months","position":"Frontend Developer","description":"In Linkfactory on daily basis I worked as a member of small team. I gained new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed a web application in the Vue.js framework. I had also contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}'
+            '{"navigation":{"about":{"label":"About","aria":"Show section about me"},"experience":{"label":"Experience","aria":"Show section about experience"},"education":{"label":"Education","aria":"Show section about education"},"skills":{"label":"Skills","aria":"Show section about skills"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Mail to jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Go to Github account"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Go to Linkedin account"}},"hero":{"greetings":"Hi, I am","fullName":"Karol Jaskółka","description":"Software engineer based in Gorzów Wielkopolski, Poland. I am focused on building the frontend part of websites and web applications with newest and the most trending frameworks.","button":"See more"},"about":{"header":"About","photo":"Photo of myself","description":"Hi, I am Karol. I have been working as a Frontend Developer for over 3 years. Moreover, I am BSc in Computer Science and MSc in Computer Engineering at Wrocław University of Science and Technology. My journey with programming has started over 8 years ago at High School."},"education":{"header":"Education","msc":{"period":"03.2021 - 07.2022","university":"Wrocław University of Science and Technology","faculty":"Faculty of Information and Communcation Technology","field":"Computer Engineering, MSc","thesis":"Thesis: Comparative analysis of classical machine learning methods and deep neural networks for facial expression recognition"},"bsc":{"period":"10.2017 - 01.2021","university":"Wrocław University of Science and Technology","faculty":"Faculty of Electronics","field":"Computer Science, BSc","thesis":"Thesis: Web application supporting project management using Angular framework"}},"experience":{"header":"Experience","synergy":{"period":"03.2023 - now","company":"Synergy Codes","span":"6+ months","position":"Software Developer","description":"Working as a Frontend Developer focused on web applications made with Angular framework. Currently I am developing an enterprise solution and components library for a client from United States of America."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 years 8 months","position":"Frontend Developer","description":"In Linkfactory on daily basis I worked as a member of small team. I gained new experience in the field of website design, software architecture and development processes. For the first year and half, my main task was to build two web applications using Angular framework and afterwards their maintenance and features development. Next, I developed a web application in the Vue.js framework. I had also contact with an application built with the React.js framework. Therefore, I am familiar with any of the three most popular frontend frameworks."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 months","position":"Programmer Intern","description":"During internship I worked as a member of intern team. Our goal was to develop chatbot application from scratch using JavaScript language, Microsoft Bot Framework and natural language processing service called LUIS. Next step was to embed a chatbot to the Angular web application. I gained at Comarch my first commercial experience and had contact with the topic of artificial intelligence, which I explored in the following years during my master\'s studies."}},"skills":{"header":"Skills","frontend":{"header":"Frontend","frameworks":"Frameworks","basics":"Basics","tools":"Tools"},"other":{"header":"Other","backend":"Backend","tools":"Tools","hobby":"Hobby"},"period":{"years":"{number} years","year":"{number} year","months":"{number} months","month":"{number} month","months-alt":"{number} months"}},"aria":{"scroll-top":"Scroll to the top","en":"Switch language to english","pl":"Switch language to polish"}}',
           ),
           Pn = JSON.parse(
-            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","synergy":{"period":"03.2023 - obecnie","company":"Synergy Codes","span":"3+ miesiące","position":"Software Developer","description":"Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 lata 8 miesięcy","position":"Frontend Developer","description":"W Linkfactory na codzień pracowałem w zespole złożonym z kilku osób. Zdobyłem doświadczenie z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Przez krótki okres czasu miałem styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obca żadna z trzech najpopularniejszych frontend\'owych technologii."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}'
+            '{"navigation":{"about":{"label":"O mnie","aria":"Pokaż sekcję o mnie"},"experience":{"label":"Doświadczenie","aria":"Pokaż sekcję o doświadczeniu"},"education":{"label":"Wykształcenie","aria":"Pokaż sekcję o doświadczeniu"},"skills":{"label":"Umiejętności","aria":"Pokaż sekcję o umiejętnościach"}},"contact":{"email":{"url":"mailto:jaskolka.karol{\'@\'}gmail.com","label":"jaskolka.karol{\'@\'}gmail.com","aria":"Napisz e-mail do jaskolka.karol{\'@\'}gmail.com"},"github":{"url":"https://github.com/karoljaskolka","label":"github.com/karoljaskolka","aria":"Przejdź do konta Github"},"linkedin":{"url":"https://www.linkedin.com/in/karoljaskółka/","label":"linkedin.com/in/karoljaskółka","aria":"Przejdź do konta Linkedin"}},"hero":{"greetings":"Cześć, jestem","fullName":"Karol Jaskółka","description":"Programista z wykształceniem informatycznym z Gorzowa Wielkopolskiego. Zajmuję się tworzeniem stron internetowych oraz aplikacji webowych z wykorzystaniem najnowszych rozwiązań.","button":"Zobacz więcej"},"about":{"header":"O mnie","photo":"Moje zdjęcie","description":"Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."},"education":{"header":"Wykształcenie","msc":{"period":"03.2021 - 07.2022","university":"Politechnika Wrocławska","faculty":"Wydział Informatyki i Telekomunikacji","field":"Informatyka Techniczna, Mgr","thesis":"Temat pracy magisterskiej: Analiza porównawcza klasycznych metod uczenia maszynowego i głębokich sieci neuronowych w zadaniu rozponawania emocji na twarzy"},"bsc":{"period":"10.2017 - 01.2021","university":"Politechnika Wrocławska","faculty":"Wydział Elektroniki","field":"Informatyka, Inż.","thesis":"Temat pracy inżynierskiej: Aplikacja webowa wspomagająca zarządzanie projektem z wykorzystaniem frameworka Angular"}},"experience":{"header":"Doświadczenie","synergy":{"period":"03.2023 - obecnie","company":"Synergy Codes","span":"6+ miesiący","position":"Software Developer","description":"Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular. W chwili obecnej zajmuję się rozwojem dużej aplikacji dla klienta ze Stanów Zjednoczonych oraz biblioteki komponentów z nią powiązanej."},"linkfactory":{"period":"07.2020 - 02.2023","company":"Linkfactory A/S","span":"2 lata 8 miesięcy","position":"Frontend Developer","description":"W Linkfactory na codzień pracowałem w zespole złożonym z kilku osób. Zdobyłem doświadczenie z zakresu projektowania i programowania witryn internetowych. Przez pierwsze półtora roku moim zadaniem było zbudowanie dwóch aplikacji webowych we frameworku Angular oraz ich utrzymanie i rozwój w późniejszym okresie. Następnie, zajmowałem się napisaniem aplikacji we frameworku Vue. Przez krótki okres czasu miałem styczność również z aplikacją zbudowaną przy pomocy frameworka React. Dzięki temu, nie jest mi obca żadna z trzech najpopularniejszych frontend\'owych technologii."},"comarch":{"period":"07.2019 - 09.2019","company":"Comarch S.A.","span":"3 mięsiące","position":"Stażysta programista","description":"W trakcie stażu pracowałem jako członek zespołu stażystów. Naszym zadaniem było zbudowanie aplikacji typu chatbot przy pomocy języka JavaScript, platformy Microsoft Bot Framework oraz usługi przetwarzania języka naturalnego LUIS. Późniejszym krokiem było dodanie chatbota do witryny internetowej napisanej we frameworku Angular. Było to moje pierwsze doświadczenie komercyjne oraz styczność z tematyką sztucznej inteligencji, którą zgłębiłem następnie podczas studiów magisterskich."}},"skills":{"header":"Umiejętności","frontend":{"header":"Frontend","frameworks":"Frameworki","basics":"Podstawy","tools":"Narzędzia"},"other":{"header":"Pozostałe","backend":"Backend","tools":"Narzędzia","hobby":"Hobby"},"period":{"years":"{number} lata","year":"{number} rok","months":"{number} miesięcy","month":"{number} miesiąc","months-alt":"{number} miesiące"}},"aria":{"scroll-top":"Przewiń do góry","en":"Zmień język na angielski","pl":"Zmień język na polski"}}',
           );
         const $n = Object.values(pn),
           En = () => {
@@ -1912,9 +1912,9 @@
             messages: { en: Nn, pl: Pn },
           });
         var Bn = Un,
-          On = n(494),
-          Mn = n(551),
-          Gn = n(539);
+          On = n(3494),
+          Mn = n(4551),
+          Gn = n(8539);
         On.vI.add(
           Mn.rdb,
           Gn.HXv,
@@ -1941,7 +1941,7 @@
           Gn.ILF,
           Mn.Vrw,
           Mn.iEy,
-          Mn.QDZ
+          Mn.QDZ,
         ),
           (0, i.ri)(Fn)
             .use(Bn)
@@ -1954,7 +1954,7 @@
     var t = a[i];
     if (void 0 !== t) return t.exports;
     var r = (a[i] = { exports: {} });
-    return e[i](r, r.exports, n), r.exports;
+    return e[i].call(r.exports, r, r.exports, n), r.exports;
   }
   (n.m = e),
     (function () {
@@ -1982,6 +1982,19 @@
         r = r || 0;
         for (var d = e.length; d > 0 && e[d - 1][2] > r; d--) e[d] = e[d - 1];
         e[d] = [i, t, r];
+      };
+    })(),
+    (function () {
+      n.n = function (e) {
+        var a =
+          e && e.__esModule
+            ? function () {
+                return e["default"];
+              }
+            : function () {
+                return e;
+              };
+        return n.d(a, { a: a }), a;
       };
     })(),
     (function () {
@@ -2036,8 +2049,8 @@
       i.forEach(a.bind(null, 0)), (i.push = a.bind(null, i.push.bind(i)));
     })();
   var i = n.O(void 0, [998], function () {
-    return n(518);
+    return n(5518);
   });
   i = n.O(i);
 })();
-//# sourceMappingURL=app.41473617.js.map
+//# sourceMappingURL=app.8cb5ae7d.js.map
