@@ -43,7 +43,7 @@ export default defineComponent({
   setup() {
     const skills = ref([]);
 
-    useOnScrollTransition(skills, "animate-scroll-left");
+    useOnScrollTransition(skills, "animate-scroll-top");
 
     return { skills };
   },
