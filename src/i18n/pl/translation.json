@@ -43,7 +43,7 @@
     "about": {
         "header": "O mnie",
         "photo": "Moje zdjęcie",
-        "description": "Cześć, jestem Karol. Pracuję jako Frontend Developer od ponad trzech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 8 lat temu."
+        "description": "Cześć, jestem Karol. Pracuję jako Software Developer od ponad czterech lat. W międzyczasie uzyskałem stopień inżyniera Informatyki oraz magistra Informatyki Technicznej na Politechnice Wrocławskiej. Swoją przygodę z programowaniem rozpocząłem w trakcie nauki w liceum ponad 9 lat temu."
     },
     "education": {
         "header": "Wykształcenie",
@@ -67,9 +67,9 @@
         "synergy": {
             "period": "03.2023 - obecnie",
             "company": "Synergy Codes",
-            "span": "6+ miesiący",
+            "span": "1+ rok",
             "position": "Software Developer",
-            "description": "Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular. W chwili obecnej zajmuję się rozwojem dużej aplikacji dla klienta ze Stanów Zjednoczonych oraz biblioteki komponentów z nią powiązanej."
+            "description": "Pracuję jako Frontend Developer specjalizujący się w aplikacjach webowych tworzonych we frameworku Angular. W chwili obecnej zajmuję się rozwojem dużej aplikacji dla klienta ze Stanów Zjednoczonych oraz biblioteki komponentów z nią powiązanej. Ponadto rozpocząłem rozwój w kierunku Full Stack Developera poprzez udział w implementacji API napisanego przy użyciu języka C# i technologii .NET Core."
         },
         "linkfactory": {
             "period": "07.2020 - 02.2023",
